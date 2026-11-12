@@ -1,0 +1,2302 @@
+{
+  "formato": 1,
+  "actualizado": "12/11/2026",
+  "promos": [
+    {
+      "id": "gnb-ruta-gastronomica",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "La Ruta Gastronómica",
+      "logo": "RG",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "reintegro en restaurantes adheridos",
+      "dias": [
+        6,
+        0
+      ],
+      "cuando": "Sábados y domingos",
+      "claro": "Pagás el total y te devuelven hasta el 25% después, en tu resumen. «Hasta» quiere decir que según el local puede ser menos.",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ]
+    },
+    {
+      "id": "gnb-bares-resto",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Bares & Restó",
+      "logo": "BR",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "reintegro en bares y restós adheridos",
+      "dias": [
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Miércoles a domingos",
+      "claro": "Pagás el total y te devuelven hasta el 25% en tu resumen. Antes de pedir, preguntá si el local está adherido.",
+      "palabras": [
+        "bar",
+        "resto",
+        "pub"
+      ],
+      "rubros": [
+        "restaurante"
+      ]
+    },
+    {
+      "id": "gnb-copetrol",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Copetrol",
+      "logo": "CP",
+      "tipo": "reintegro",
+      "valor": "30%",
+      "detalle": "reintegro en estaciones adheridas",
+      "dias": [
+        1
+      ],
+      "cuando": "Lunes",
+      "claro": "Hasta 30% de vuelta en tu resumen, solo en estaciones adheridas. Si podés, dejá la carga grande para el lunes.",
+      "palabras": [
+        "copetrol"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-travel",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "GNB Travel+",
+      "logo": "GT",
+      "tipo": "cuotas",
+      "valor": "18x",
+      "detalle": "cuotas sin intereses + descuento hasta ₲ 2.000.000",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 18 cuotas sin intereses en viajes, más un descuento que puede llegar a ₲ 2.000.000. Sin intereses solo si pagás el total del resumen cada mes.",
+      "palabras": [
+        "gnb travel",
+        "travel"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-ruta-cafe",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "La Ruta del Café",
+      "logo": "RC",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "reintegro en cafeterías adheridas",
+      "dias": [
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Miércoles a domingos",
+      "claro": "Pagás el total y te devuelven hasta el 25% en tu resumen.",
+      "palabras": [
+        "cafe",
+        "cafeteria",
+        "coffee"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-universidades",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Universidades",
+      "logo": "UN",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "detalle": "reintegro + hasta 12 cuotas sin intereses",
+      "dias": [],
+      "diasMes": [
+        1,
+        10
+      ],
+      "cuando": "Del 1 al 10 de cada mes",
+      "claro": "Pagá la cuota de la facu en los primeros 10 días del mes: te devuelven 15% y podés hacerlo en hasta 12 cuotas.",
+      "palabras": [
+        "universidad",
+        "facultad",
+        "facu",
+        "uni"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-petrobras",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Petrobras Premmia",
+      "logo": "PB",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro pagando desde la app Premmia",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "Solo vale si pagás desde la app Premmia. Si pasás la tarjeta directo en el surtidor, no aplica.",
+      "palabras": [
+        "petrobras",
+        "premmia"
+      ],
+      "rubros": [],
+      "pago": "Solo pagando desde la app Premmia."
+    },
+    {
+      "id": "gnb-cinemark",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Cinemark",
+      "logo": "CM",
+      "tipo": "descuento",
+      "valor": "50%",
+      "detalle": "de descuento",
+      "dias": [
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Jueves a domingos",
+      "claro": "Es descuento directo: pagás la mitad en el momento, no tenés que esperar el reintegro.",
+      "palabras": [
+        "cinemark",
+        "cine"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-peluquerias",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Peluquerías & Spa",
+      "logo": "PS",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "reintegro + 3 cuotas sin intereses",
+      "dias": [
+        5,
+        6
+      ],
+      "cuando": "Viernes y sábados",
+      "claro": "Hasta 25% de vuelta en tu resumen y podés pagarlo en 3 cuotas sin intereses.",
+      "palabras": [
+        "peluqueria",
+        "spa",
+        "barberia",
+        "salon"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-arete-festa",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Areté y Festa",
+      "logo": "AF",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "detalle": "reintegro en supermercado y restaurante",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "15% de vuelta en tu resumen todos los días, tanto en el súper como en el restaurante.",
+      "palabras": [
+        "arete",
+        "festa"
+      ],
+      "rubros": []
+    },
+    {
+      "id": "gnb-electronica",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Electrónica y electrodomésticos",
+      "logo": "EL",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "cuotas sin intereses",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Sin intereses solo si pagás el total cada mes. Ojo: la línea se ocupa por el total de la compra desde el primer día.",
+      "palabras": [],
+      "rubros": [
+        "tecnologia"
+      ]
+    },
+    {
+      "id": "gnb-meta-sports",
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "comercio": "Meta Sports",
+      "logo": "MS",
+      "tipo": "descuento",
+      "valor": "25%",
+      "detalle": "descuento + hasta 6 cuotas sin intereses",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "Descuento directo en caja y además podés pagarlo en hasta 6 cuotas sin intereses.",
+      "palabras": [
+        "meta sports",
+        "metasports"
+      ],
+      "rubros": []
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "KA",
+      "palabras": [
+        "kaiseki"
+      ],
+      "rubros": [],
+      "id": "sud-kaiseki",
+      "comercio": "Kaiseki",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cuando": "Lunes a viernes",
+      "claro": "Pagás el total y te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 1.000.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "DL",
+      "palabras": [
+        "de la peque",
+        "la peque"
+      ],
+      "rubros": [],
+      "id": "sud-de-la-peque",
+      "comercio": "De la Peque",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6
+      ],
+      "cuando": "Jueves a sábados",
+      "claro": "Pagás el total y te devuelven 20% en el extracto.",
+      "tope": "₲ 500.000 por mes",
+      "hasta": "2026-12-26"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CH",
+      "palabras": [
+        "chaval"
+      ],
+      "rubros": [],
+      "id": "sud-chaval",
+      "comercio": "Chaval",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6
+      ],
+      "cuando": "Jueves a sábados",
+      "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 600.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "JU",
+      "palabras": [
+        "jardin urbano"
+      ],
+      "rubros": [],
+      "id": "sud-jardin-urbano",
+      "comercio": "Jardín Urbano",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Jueves a domingos",
+      "claro": "Te devuelven 20% en el extracto.",
+      "tope": "₲ 800.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "GR",
+      "palabras": [
+        "grosso"
+      ],
+      "rubros": [],
+      "id": "sud-grosso",
+      "comercio": "Grosso",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        2,
+        3,
+        4
+      ],
+      "cuando": "Martes a jueves",
+      "claro": "Te devuelven 20% en el extracto.",
+      "tope": "₲ 800.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CQ",
+      "palabras": [
+        "cafe quinto"
+      ],
+      "rubros": [],
+      "id": "sud-cafe-quinto",
+      "comercio": "Café Quinto",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "reintegro en pedidos por WhatsApp",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "Solo pidiendo por WhatsApp: pedidos por la web no aplican. Te devuelven 25% en el extracto.",
+      "tope": "₲ 800.000 por mes",
+      "hasta": "2026-12-29"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CJ",
+      "palabras": [
+        "cafe jardin"
+      ],
+      "rubros": [],
+      "id": "sud-cafe-jardin",
+      "comercio": "Café Jardín",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Jueves a domingos",
+      "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 600.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "TT",
+      "palabras": [
+        "totem"
+      ],
+      "rubros": [],
+      "id": "sud-totem",
+      "comercio": "Totem Tostadores",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "cuando": "Martes a viernes",
+      "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 500.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "LC",
+      "palabras": [
+        "candelaria"
+      ],
+      "rubros": [],
+      "id": "sud-la-candelaria",
+      "comercio": "La Candelaria",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Jueves a domingos",
+      "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 600.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "KE",
+      "palabras": [
+        "kessel"
+      ],
+      "rubros": [],
+      "id": "sud-kessel",
+      "comercio": "Kessel",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro en Villa Morra y Sky Bar",
+      "dias": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "cuando": "Miércoles a sábados",
+      "claro": "Solo en Kessel Villa Morra y Kessel Sky Bar (San Bernardino no). No se suma con otras promos.",
+      "tope": "₲ 2.000.000",
+      "hasta": "2027-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "H1",
+      "palabras": [
+        "hoyo 19",
+        "yacht"
+      ],
+      "rubros": [],
+      "id": "sud-hoyo-19",
+      "comercio": "Hoyo 19 · Yacht y Golf Club",
+      "tipo": "descuento",
+      "valor": "25% + 10%",
+      "detalle": "25% en caja + 10% de reintegro",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Te descuentan 25% al pagar y después te devuelven 10% más en el extracto.",
+      "tope": "₲ 500.000 por mes",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CA",
+      "palabras": [
+        "club aleman",
+        "deportivo aleman",
+        "dta"
+      ],
+      "rubros": [],
+      "id": "sud-dta",
+      "comercio": "Club Alemán (DTA)",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "en sus restaurantes · 10% en la cuota social · 12 cuotas",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "20% de vuelta en los locales gastronómicos del club. La cuota social: 10% de reintegro con débito automático, o hasta 12 cuotas sin intereses en caja.",
+      "tope": "₲ 500.000 por mes",
+      "hasta": "2028-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "LU",
+      "palabras": [
+        "luisito"
+      ],
+      "rubros": [],
+      "id": "sud-luisito",
+      "comercio": "Luisito",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "Te devuelven 20% en el extracto.",
+      "tope": "₲ 1.000.000 por mes",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "SC",
+      "palabras": [
+        "serendipity"
+      ],
+      "rubros": [],
+      "id": "sud-serendipity",
+      "comercio": "Serendipity · cantinas de colegios",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "detalle": "en cantinas de Goethe, Campoalto, Las Almenas y Las Almenitas",
+      "dias": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cuando": "Lunes a viernes",
+      "claro": "Te devuelven 15% en el extracto. El tope es entre todos los colegios juntos.",
+      "tope": "₲ 800.000 por mes",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "BB",
+      "palabras": [
+        "bodega boutique"
+      ],
+      "rubros": [],
+      "id": "sud-bodega-boutique",
+      "comercio": "Bodega Boutique",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Jueves a domingos",
+      "claro": "Te devuelven 20% en el extracto. Vale en Asunción y San Bernardino; el tope es uno solo para todos los locales.",
+      "tope": "₲ 2.000.000",
+      "hasta": "2027-02-28"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "FR",
+      "palabras": [
+        "frigomas"
+      ],
+      "rubros": [],
+      "id": "sud-frigomas",
+      "comercio": "Frigomas",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "solo en el local de Paseo Miraflores",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Solo en el local de Paseo Miraflores, no en la web. Te devuelven 25% en el extracto.",
+      "tope": "₲ 800.000 en toda la promo",
+      "hasta": "2026-12-25"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "SE",
+      "palabras": [
+        "saspy"
+      ],
+      "rubros": [],
+      "id": "sud-saspy",
+      "comercio": "Saspy Express",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "reintegro + hasta 10 cuotas sin intereses",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "En la app o la web de Saspy elegí pagar con «VPOS». Con PayPal, Pagopar o Dinelco no aplica. No se suma con otras promos.",
+      "tope": "₲ 500.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CL",
+      "palabras": [
+        "casa lorenzo"
+      ],
+      "rubros": [],
+      "id": "sud-casa-lorenzo",
+      "comercio": "Casa Lorenzo",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Black",
+        "Infinite"
+      ],
+      "detalle": "solo Mastercard Black y Visa Infinite",
+      "dias": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cuando": "Lunes a jueves",
+      "claro": "Solo con Black o Infinite. Te devuelven 20% en el extracto. No se suma con otras promos.",
+      "tope": "₲ 3.000.000",
+      "hasta": "2027-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "PH",
+      "palabras": [
+        "parana hogar",
+        "parana colchones"
+      ],
+      "rubros": [],
+      "id": "sud-parana-hogar",
+      "comercio": "Paraná Hogar / Colchones",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro + hasta 12 cuotas sin intereses",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Te devuelven 20% en el extracto y podés pagar en hasta 12 cuotas sin intereses. No se suma con otras promos.",
+      "tope": "₲ 10.000.000 por mes",
+      "hasta": "2027-01-29"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "MA",
+      "palabras": [
+        "materassi"
+      ],
+      "rubros": [],
+      "id": "sud-materassi",
+      "comercio": "Materassi",
+      "tipo": "descuento",
+      "valor": "30% + 10%",
+      "detalle": "30% en caja + 10% de reintegro + 12 cuotas",
+      "dias": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "cuando": "Miércoles a sábados",
+      "claro": "Te descuentan 30% al pagar y después te devuelven 10% más en el extracto. Hasta 12 cuotas sin intereses.",
+      "tope": "₲ 10.000.000 por mes",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "TR",
+      "palabras": [
+        "trovari",
+        "lacoste",
+        "arezzo",
+        "benetton",
+        "pandora",
+        "swarovski",
+        "max co",
+        "furla",
+        "ovs",
+        "hope",
+        "yves rocher",
+        "anacapri",
+        "schutz",
+        "moschino",
+        "pdpaola"
+      ],
+      "rubros": [],
+      "id": "sud-trovari",
+      "comercio": "Trovari",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "en caja + hasta 10 cuotas · Lacoste, Pandora, Swarovski y más",
+      "dias": [
+        5,
+        6,
+        0
+      ],
+      "cuando": "Viernes a domingos",
+      "claro": "Te descuentan 20% al pagar. Vale en Lacoste, Arezzo, Benetton, Pandora, Swarovski, Max&Co, Furla, OVS, Hope, Yves Rocher, Anacapri, Schutz, Love Moschino y PdPaola.",
+      "hasta": "2026-11-29"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "YO",
+      "palabras": [
+        "younique"
+      ],
+      "rubros": [],
+      "id": "sud-younique",
+      "comercio": "Younique",
+      "tipo": "descuento",
+      "valor": "25%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "30%"
+        }
+      ],
+      "detalle": "en caja + hasta 12 cuotas sin intereses",
+      "dias": [
+        2,
+        3
+      ],
+      "cuando": "Martes y miércoles",
+      "claro": "Te descuentan 25% al pagar (30% con Black o Infinite).",
+      "hasta": "2027-02-28"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "DA",
+      "palabras": [
+        "diana apodaca"
+      ],
+      "rubros": [],
+      "id": "sud-diana-apodaca",
+      "comercio": "Diana Apodaca",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "reintegro + hasta 12 cuotas sin intereses",
+      "dias": [
+        3,
+        4
+      ],
+      "cuando": "Miércoles y jueves",
+      "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+      "tope": "₲ 1.500.000 por mes",
+      "hasta": "2027-02-28"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "LF",
+      "palabras": [
+        "live fitness"
+      ],
+      "rubros": [],
+      "id": "sud-live-fitness",
+      "comercio": "Live Fitness",
+      "tipo": "descuento",
+      "valor": "Hasta 20%",
+      "detalle": "en membresías + cuotas sin intereses",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Trimestral: 10% y 3 cuotas. Semestral: 15% y 6 cuotas. Anual: 20% y 12 cuotas. Te lo descuentan al pagar.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "CS",
+      "palabras": [
+        "san andres"
+      ],
+      "rubros": [],
+      "id": "sud-san-andres",
+      "comercio": "Colegio San Andrés",
+      "tipo": "cuotas",
+      "valor": "15x",
+      "detalle": "cuotas sin intereses en caja y librería",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 15 cuotas sin intereses pagando en la caja o la librería del colegio.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+      "logo": "UD",
+      "palabras": [
+        "da vinci"
+      ],
+      "rubros": [],
+      "id": "sud-da-vinci",
+      "comercio": "Universidad Da Vinci · diplomados",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "en la inscripción + hasta 12 cuotas",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "20% de descuento en la inscripción al diplomado y hasta 12 cuotas. Las cuotas se piden en caja al pagar. No se suma con otras promos.",
+      "hasta": "2027-05-31"
+    },
+    {
+      "banco": "Sudameris",
+      "claveBanco": "sudameris",
+      "pago": "Lo pedís después por WhatsApp, teléfono o tu oficial de cuenta.",
+      "logo": "CE",
+      "palabras": [],
+      "rubros": [],
+      "id": "sud-exterior",
+      "comercio": "Compras en el exterior",
+      "tipo": "cuotas",
+      "valor": "6x",
+      "detalle": "cuotas sin intereses, pidiéndolas después",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Comprás fuera del país (en persona u online) y, pasadas 48 horas hábiles, pedís al banco pasarlo a hasta 6 cuotas sin intereses.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "pago": "Solo pagando en el POS de Dinelco. Si pasás la tarjeta en otro posnet, no aplica.",
+      "logo": "MD",
+      "palabras": [],
+      "rubros": [
+        "farmacia"
+      ],
+      "id": "conti-martes-farmacias",
+      "comercio": "Martes de Farmacias",
+      "tipo": "reintegro",
+      "valor": "Hasta 55%",
+      "detalle": "en farmacias adheridas",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "Según la farmacia, parte te descuentan al pagar y parte vuelve en el extracto. Fijate el porcentaje de cada una en la lista.",
+      "comercios": [
+        {
+          "nombre": "Biggie Farma",
+          "valor": "20% + 10%",
+          "nota": "20% + 20% el primer martes del mes"
+        },
+        {
+          "nombre": "Farmacia Americana",
+          "valor": "40% + 15%"
+        },
+        {
+          "nombre": "Drugstore",
+          "valor": "32% + 10%",
+          "nota": "hasta 32% en caja"
+        },
+        {
+          "nombre": "Farmavip",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Farmacia Pané",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Farmaoliva",
+          "valor": "25% + 15%",
+          "nota": "+ 3 cuotas"
+        },
+        {
+          "nombre": "Farma Internacional",
+          "valor": "25% + 10%",
+          "nota": "+ 12 cuotas"
+        },
+        {
+          "nombre": "Farmatotal",
+          "valor": "20% + 10%"
+        },
+        {
+          "nombre": "Farmacia Catedral",
+          "valor": "20% + 10%"
+        },
+        {
+          "nombre": "Nutrilife",
+          "valor": "20% + 10%"
+        },
+        {
+          "nombre": "Farmacia Liz",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farmavida",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Total Farma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farmalife",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farma Cumbre",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Vitalmed",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farma Lorena",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Maxi Farma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farmacia Acuario",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Farmacia Aleman",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ultra Pharma",
+          "valor": "15%"
+        },
+        {
+          "nombre": "FarmaLab",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Farma Mellis",
+          "valor": "15%"
+        },
+        {
+          "nombre": "La Trinidad",
+          "valor": "10%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "pago": "Solo pagando en el POS de Dinelco. Si pasás la tarjeta en otro posnet, no aplica.",
+      "logo": "MD",
+      "palabras": [],
+      "rubros": [
+        "farmacia"
+      ],
+      "id": "conti-miercoles-farmacias",
+      "comercio": "Miércoles de Farmacias",
+      "tipo": "reintegro",
+      "valor": "Hasta 35%",
+      "detalle": "Farmacenter y Vicente Scavone",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "Farmacenter: hasta 25% al pagar + 15% en el extracto y 3 cuotas. Vicente Scavone: 20% + 10% y 6 cuotas.",
+      "comercios": [
+        {
+          "nombre": "Farmacenter",
+          "valor": "25% + 15%"
+        },
+        {
+          "nombre": "Vicente Scavone",
+          "valor": "20% + 10%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "pago": "Solo pagando en el POS de Dinelco. Si pasás la tarjeta en otro posnet, no aplica.",
+      "logo": "MD",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
+      ],
+      "id": "conti-miercoles-super",
+      "comercio": "Miércoles de Supermercados",
+      "tipo": "reintegro",
+      "valor": "Hasta 30%",
+      "detalle": "en más de 100 supermercados",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "Te devuelven entre 10% y 30% en el extracto según el súper. Fijate el tuyo en la lista.",
+      "comercios": [
+        {
+          "nombre": "Salemma",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Real Online",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Ahorra Mas",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Archi",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Porkus",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Hello Oven",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Real",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Delimarket",
+          "valor": "20%",
+          "nota": "+5% con Black e Infinite"
+        },
+        {
+          "nombre": "Superseis",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Stock",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Biggie Express",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Santo Domingo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ara",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Los Hermanitos",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Santa Clara",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Moderna",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Criolla",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Casa Grutter",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Rubencito",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Marangatu",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Colon",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Gran Avenida",
+          "valor": "20%"
+        },
+        {
+          "nombre": "San Nicolas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Bomba",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Los Jardines",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Rosy",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Boqueron",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Coni",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Filas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Insaurralde",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Minimax",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Nutritiva",
+          "valor": "20%"
+        },
+        {
+          "nombre": "San Vicente",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Favesa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Cacique",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Everest",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Baratodo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Irene",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Economia",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Alimentos Capri",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Santa Elena",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pronto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Virgen del Rosario",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Super Victor",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Autoservicio Guille",
+          "valor": "20%"
+        },
+        {
+          "nombre": "A Punto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Santa Rosa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "DM Market",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cardoso",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pueblo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Carniceria Vera",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Don Pedro",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Las Estrellas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Beef Shop",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pryca",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Canasta",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Kelita",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Todo Chaco",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Predileto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Gran Via",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Villa Sofia",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Maxi",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Multi Carnes",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Molino Caaguazu",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cavian",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Itena",
+          "valor": "20%"
+        },
+        {
+          "nombre": "San Sebastian",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Preferida",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Area 6",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Luisito",
+          "valor": "20%"
+        },
+        {
+          "nombre": "B2",
+          "valor": "20%"
+        },
+        {
+          "nombre": "7 de Agosto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Primavera",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Quincho",
+          "valor": "20%"
+        },
+        {
+          "nombre": "San Cayetano",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Liz Comercial",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Beto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "SMH",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Grefran",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Aiza",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Emanuel",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Jullito",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Grupo Maciel",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Asuncena",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Super Sac",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Campo 9",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Kai",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Armin",
+          "valor": "10%"
+        },
+        {
+          "nombre": "El Amanecer",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Yguazu",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Super Mas",
+          "valor": "10%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "BM",
+      "palabras": [
+        "box mayorista",
+        "box"
+      ],
+      "rubros": [],
+      "id": "conti-box",
+      "comercio": "Box Mayorista",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "el tercer lunes del mes",
+      "dias": [
+        1
+      ],
+      "semanaMes": 3,
+      "cuando": "Tercer lunes del mes",
+      "claro": "Solo el tercer lunes de cada mes. Te devuelven 20% en el extracto.",
+      "hasta": "2026-12-16"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "VD",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
+      ],
+      "id": "conti-viernes-super",
+      "comercio": "Viernes de súper",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "Ultra Minú, Grupo Laso y Spacio 1",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Todos los viernes te devuelven 20% en el extracto en estos súper.",
+      "comercios": [
+        {
+          "nombre": "Ultra Minu",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Laso",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Spacio 1",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "EA",
+      "palabras": [
+        "ahorrazo"
+      ],
+      "rubros": [],
+      "id": "conti-ahorrazo",
+      "comercio": "El Ahorrazo",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "todos los miércoles y el segundo sábado del mes",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles (y el 2° sábado del mes)",
+      "claro": "Te devuelven 20% en el extracto los miércoles. También vale el segundo sábado de cada mes.",
+      "hasta": "2027-04-03"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "JD",
+      "palabras": [],
+      "rubros": [
+        "ropa"
+      ],
+      "id": "conti-jueves-tiendas",
+      "comercio": "Jueves de Tiendas",
+      "tipo": "reintegro",
+      "valor": "Hasta 35%",
+      "detalle": "en más de 100 tiendas, muchas con 12 cuotas",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "Entre 10% y 35% según la tienda: en algunas te lo descuentan al pagar y en otras vuelve en el extracto. Con Privilege, muchas suman 5% más.",
+      "comercios": [
+        {
+          "nombre": "El Negro",
+          "valor": "35% + 10%",
+          "nota": "35% en caja, solo POS Dinelco"
+        },
+        {
+          "nombre": "Smash Padel",
+          "valor": "35%"
+        },
+        {
+          "nombre": "Lander Fit",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Deport Center",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Master Shop",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Discovery",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Ghis",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Elefante Negro",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Paats",
+          "valor": "25%"
+        },
+        {
+          "nombre": "San Blas",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Birkenstock",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Atenas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Jakare",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Nice",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Luminotecnia",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cuna Bella",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Las Perlas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sport Shop",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Black Cow",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Rookie",
+          "valor": "20%"
+        },
+        {
+          "nombre": "360 Sneaker",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Nike",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pro Sport",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Body Club",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Todoluz",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Glamore",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sport Center",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Lucky Import",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Mansion",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Balboa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pistacho",
+          "valor": "20%"
+        },
+        {
+          "nombre": "DHome",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Vans",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Meta Sports",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Meta Kids",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Adidas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Arrow",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Martel",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Wrangler",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Lee",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sansei",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Progresar",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Camping 44",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Uliko",
+          "valor": "20%"
+        },
+        {
+          "nombre": "John Foos",
+          "valor": "20%"
+        },
+        {
+          "nombre": "CEI Calzados",
+          "valor": "20%"
+        },
+        {
+          "nombre": "SAX",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Electroluz",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Deco Hogar",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Liberato",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Coqueta",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Globalbox",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Vane",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Buscapies",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Fitway",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Jeep",
+          "valor": "20%"
+        },
+        {
+          "nombre": "New Balance",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cole Haan",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Top Tenis",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Renova Padel",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Hey Dude",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Crocs",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Timberland",
+          "valor": "20%"
+        },
+        {
+          "nombre": "CAT",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Guess",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Outdoors",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Megashop",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Casa Omnia",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Multitienda",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Active",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Penti",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Kyrios",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Champs Elysees",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Isdin",
+          "valor": "20%"
+        },
+        {
+          "nombre": "O Boticario",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Forever 21",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Women secret",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Springfield",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Jack Jones",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Vendome",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Quiero",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Lual",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Fiori",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Luna Jeans",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Casa China",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Parway",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Centauro",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Marsal",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Dudalina",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Vets",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Todo Huerta",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Santani",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Teko Park",
+          "valor": "10%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "pago": "Solo pagando en el POS de Dinelco. Si pasás la tarjeta en otro posnet, no aplica.",
+      "logo": "VD",
+      "palabras": [],
+      "rubros": [
+        "combustible"
+      ],
+      "id": "conti-viernes-combustible",
+      "comercio": "Viernes de Combustible",
+      "tipo": "reintegro",
+      "valor": "Hasta 20%",
+      "detalle": "en estaciones adheridas",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Te devuelven entre 10% y 20% en el extracto según la estación. Con Privilege, Petrobras, Energy y Copetrol suman 5% más.",
+      "comercios": [
+        {
+          "nombre": "Petrobras",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Energy",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Copetrol",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Petrochaco",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Petrosur",
+          "valor": "20%"
+        },
+        {
+          "nombre": "TM Petroleos",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Enercon",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Compasa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Petromax",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ecop",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Puma",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Petropar",
+          "valor": "10%",
+          "nota": "solo Radio Curuguaty"
+        },
+        {
+          "nombre": "Ultra",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Laso",
+          "valor": "10%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "SD",
+      "palabras": [
+        "peluqueria",
+        "spa",
+        "barberia",
+        "salon",
+        "coiffure"
+      ],
+      "rubros": [],
+      "id": "conti-sabado-peluquerias",
+      "comercio": "Sábado de Peluquerías",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Privilege"
+          ],
+          "valor": "35%"
+        },
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "en todas las peluquerías y spa del país",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "Vale en cualquier peluquería o spa del país. El porcentaje depende de tu tarjeta.",
+      "hasta": "2027-01-16"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "FD",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "conti-finde-gastronomico",
+      "comercio": "Fin de semana Gastronómico",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Privilege"
+          ],
+          "valor": "35%"
+        },
+        {
+          "tarjetas": [
+            "Black",
+            "Infinite"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "en todos los restaurantes del país",
+      "dias": [
+        6,
+        0
+      ],
+      "cuando": "Sábados y domingos",
+      "claro": "Vale en cualquier restaurante del país. El porcentaje depende de tu tarjeta y vuelve en el extracto.",
+      "todoElRubro": true,
+      "hasta": "2027-10-25"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "MS",
+      "palabras": [
+        "mcdonalds",
+        "mc donalds",
+        "mcdonald"
+      ],
+      "rubros": [],
+      "id": "conti-mcdonalds",
+      "comercio": "McDonald's",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Todos los viernes te devuelven 20% en el extracto.",
+      "hasta": "2026-12-25"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "MY",
+      "palabras": [
+        "marimex",
+        "don beling"
+      ],
+      "rubros": [],
+      "id": "conti-todos-los-dias-gastro",
+      "comercio": "Marimex y Don Beling",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "todos los días",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Te devuelven 20% en el extracto cualquier día."
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "CL",
+      "palabras": [
+        "las hortensias",
+        "hortensias"
+      ],
+      "rubros": [],
+      "id": "conti-cine-hortensias",
+      "comercio": "Cine Las Hortensias",
+      "tipo": "reintegro",
+      "valor": "50%",
+      "soloTarjetas": [
+        "Black",
+        "Infinite",
+        "Privilege"
+      ],
+      "detalle": "solo Black, Infinite y Privilege",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Solo con Black, Infinite o Privilege: te devuelven la mitad en el extracto.",
+      "hasta": "2027-06-10"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "CO",
+      "palabras": [
+        "contimarket"
+      ],
+      "rubros": [],
+      "id": "conti-contimarket",
+      "comercio": "Contimarket",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "cuotas sin intereses + 25% extra en días especiales",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses en contimarket.com. En días especiales, además, 25% de vuelta en el extracto.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "SY",
+      "palabras": [
+        "sanatorio",
+        "laboratorio"
+      ],
+      "rubros": [],
+      "id": "conti-salud",
+      "comercio": "Sanatorios y laboratorios",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "en todos los del país",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses en cualquier sanatorio o laboratorio del país.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "CY",
+      "palabras": [
+        "colegio",
+        "universidad",
+        "facultad"
+      ],
+      "rubros": [],
+      "id": "conti-educacion",
+      "comercio": "Colegios y universidades",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "en centros educativos de todo el país",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses en colegios y universidades.",
+      "hasta": "2027-08-06"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "AD",
+      "palabras": [
+        "aerolinea",
+        "agencia de viajes",
+        "viajes",
+        "turismo"
+      ],
+      "rubros": [],
+      "id": "conti-viajes",
+      "comercio": "Agencias de viaje y aerolíneas",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "en pagos presenciales",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses en agencias y aerolíneas de todo el país, pagando en persona.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco Continental",
+      "claveBanco": "continental",
+      "logo": "MU",
+      "palabras": [
+        "municipalidad"
+      ],
+      "rubros": [],
+      "id": "conti-municipalidades",
+      "comercio": "Municipalidades",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "en todas las que tengan POS",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses para pagar impuestos municipales, en las municipalidades con POS.",
+      "hasta": "2027-06-13"
+    }
+  ]
+}
