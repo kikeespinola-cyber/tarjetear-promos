@@ -2297,6 +2297,1222 @@
       "cuando": "Todos los días",
       "claro": "Hasta 12 cuotas sin intereses para pagar impuestos municipales, en las municipalidades con POS.",
       "hasta": "2027-06-13"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "SH",
+      "palabras": [
+        "shell"
+      ],
+      "rubros": [],
+      "id": "itau-shell-lunes",
+      "comercio": "Shell",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "excluirTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "en estaciones Shell adheridas",
+      "dias": [
+        1
+      ],
+      "cuando": "Lunes",
+      "claro": "Te devuelven 20% en el extracto. El tope es uno solo para todas tus tarjetas Itaú, incluidas las adicionales. No vale con Visa Infinite ni AMEX Platinum (esas tienen su día: el miércoles).",
+      "tope": "₲ 150.000 por mes con Clásica · ₲ 500.000 con Oro, Black y Platinum",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "SP",
+      "palabras": [
+        "shell"
+      ],
+      "rubros": [],
+      "id": "itau-shell-miercoles-pb",
+      "comercio": "Shell · Personal Bank",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "solo Visa Infinite y AMEX Platinum",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "Te devuelven 25% en el extracto en estaciones Shell adheridas.",
+      "tope": "₲ 1.200.000 por mes",
+      "hasta": "2026-11-25"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "SA",
+      "palabras": [
+        "shell"
+      ],
+      "rubros": [],
+      "id": "itau-shell-aniversario",
+      "comercio": "Shell · Aniversario",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "jueves 12, 19 y 26 de noviembre",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves de noviembre",
+      "claro": "Solo los jueves 12, 19 y 26 de noviembre: te devuelven 25% en el extracto en Shell.",
+      "tope": "₲ 300.000 por jueves con Clásica · ₲ 500.000 con las demás",
+      "hasta": "2026-11-26"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "pago": "Solo pagando con QR desde la app Itaú.",
+      "logo": "PF",
+      "palabras": [
+        "punto farma",
+        "puntofarma"
+      ],
+      "rubros": [],
+      "id": "itau-punto-farma",
+      "comercio": "Punto Farma",
+      "tipo": "descuento",
+      "valor": "Hasta 35%",
+      "detalle": "pagando con QR desde la app Itaú + 6 cuotas",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "Hasta 35% en productos varios, 30% en medicamentos y pañales, 25% en leches y precios especiales. No se suma con otras promos.",
+      "tope": "₲ 1.000.000",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "SU",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
+      ],
+      "id": "itau-super-semana",
+      "comercio": "Supermercados",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "AMEX Platinum"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "Areté, Real, Superseis, Stock y Casa Grütter",
+      "dias": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "cuando": "Según el súper",
+      "claro": "Domingo Areté, lunes Real, sábado Superseis y Stock, primer martes Casa Grütter. Te devuelven 15% (20% con Infinite o AMEX Platinum). Consumo familiar.",
+      "tope": "₲ 300.000 por mes con Clásica · ₲ 500.000 con Oro · ₲ 1.500.000 Premium · ₲ 3.000.000 Infinite y AMEX Platinum",
+      "comercios": [
+        {
+          "nombre": "Arete",
+          "dias": [
+            0
+          ],
+          "nota": "solo domingos",
+          "hasta": "2026-11-29"
+        },
+        {
+          "nombre": "Real",
+          "dias": [
+            1
+          ],
+          "nota": "solo lunes",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Superseis",
+          "dias": [
+            6
+          ],
+          "nota": "solo sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Stock",
+          "dias": [
+            6
+          ],
+          "nota": "solo sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Casa Grutter",
+          "dias": [
+            2
+          ],
+          "valor": "10%",
+          "nota": "solo el primer martes del mes (15% con Infinite o AMEX Platinum)",
+          "hasta": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "DE",
+      "palabras": [
+        "delimarket",
+        "deli market"
+      ],
+      "rubros": [],
+      "id": "itau-delimarket",
+      "comercio": "Delimarket",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Black",
+        "Platinum",
+        "Infinite",
+        "AMEX",
+        "LATAM"
+      ],
+      "detalle": "solo tarjetas Premium",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "Con tarjetas Premium de Itaú te devuelven 20% en el extracto.",
+      "tope": "₲ 1.500.000 por mes · ₲ 3.000.000 con Infinite y AMEX Platinum",
+      "hasta": "2026-11-28"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "CR",
+      "palabras": [
+        "casa rica",
+        "casarica"
+      ],
+      "rubros": [],
+      "id": "itau-casa-rica",
+      "comercio": "Casa Rica",
+      "tipo": "descuento",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Black",
+        "Platinum",
+        "Infinite",
+        "AMEX",
+        "LATAM"
+      ],
+      "detalle": "jueves 19 (también online) y 26 de noviembre",
+      "dias": [
+        4
+      ],
+      "cuando": "Penúltimo y último jueves",
+      "claro": "Descuento directo en caja, solo con tarjetas Premium: jueves 19 de noviembre (también en casarica.com.py) y jueves 26. No se suma con otras promos.",
+      "hasta": "2026-11-26"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "LQ",
+      "palabras": [
+        "queseria"
+      ],
+      "rubros": [],
+      "id": "itau-la-queseria",
+      "comercio": "La Quesería",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "AMEX Platinum"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "Las Mercedes y Del Sol · 20% en Shopping Mariscal",
+      "dias": [
+        1,
+        2,
+        3
+      ],
+      "cuando": "Lunes a miércoles",
+      "claro": "15% en Las Mercedes y Del Sol, 20% en Shopping Mariscal. Con Infinite o AMEX Platinum sumás 5% más, y de miércoles a domingo tenés 20%.",
+      "tope": "₲ 700.000 · ₲ 1.000.000 con Personal Bank",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "HA",
+      "palabras": [
+        "havanna"
+      ],
+      "rubros": [],
+      "id": "itau-havanna",
+      "comercio": "Havanna",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "reintegro en el extracto",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Te devuelven 20% en el extracto.",
+      "tope": "₲ 300.000",
+      "hasta": "2026-12-25"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "TA",
+      "palabras": [
+        "tatakua"
+      ],
+      "rubros": [],
+      "id": "itau-tatakua",
+      "comercio": "Tatakua",
+      "tipo": "descuento",
+      "valor": "25%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "AMEX Platinum"
+          ],
+          "valor": "30%"
+        }
+      ],
+      "detalle": "comprando por la web",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "Pidiendo por la web: 25% de descuento (30% con Infinite o AMEX Platinum).",
+      "hasta": "2026-11-26"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "EE",
+      "palabras": [
+        "ticketea"
+      ],
+      "rubros": [],
+      "id": "itau-ticketea",
+      "comercio": "Eventos en Ticketea",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "+ hasta 10 cuotas · El Pela Romero y La Jenny",
+      "dias": [],
+      "cuando": "Hasta agotar",
+      "claro": "20% y hasta 10 cuotas comprando en Ticketea: «Aprendiendo a quererme» (19/11, Alianza Francesa) y «La Jenny» (27 al 29/11, Teatro Latino).",
+      "hasta": "2026-11-29"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "pago": "El ahorro extra es pagando con Apple Pay o Google Pay.",
+      "logo": "FU",
+      "palabras": [
+        "fuschia"
+      ],
+      "rubros": [],
+      "id": "itau-fuschia",
+      "comercio": "Fuschia",
+      "tipo": "descuento",
+      "valor": "30% + 10%",
+      "detalle": "jueves Dermage · sábados Palma",
+      "dias": [
+        4,
+        6
+      ],
+      "cuando": "Jueves y sábados",
+      "claro": "Jueves en Dermage: 30% + 10% más pagando con Apple Pay o Google Pay. Sábados en Palma: 20% + 5%. Hasta 10 cuotas.",
+      "hasta": "2026-11-28"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "IT",
+      "palabras": [
+        "import telas"
+      ],
+      "rubros": [],
+      "id": "itau-import-telas",
+      "comercio": "Import Telas",
+      "tipo": "descuento",
+      "valor": "15%",
+      "detalle": "+ hasta 6 cuotas",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "15% de descuento y hasta 6 cuotas sin intereses.",
+      "hasta": "2026-11-26"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "SS",
+      "palabras": [
+        "sallustro"
+      ],
+      "rubros": [],
+      "id": "itau-sallustro",
+      "comercio": "Sallustro Sports",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "detalle": "local San Martín + hasta 6 cuotas",
+      "dias": [
+        0
+      ],
+      "semanaMes": 3,
+      "cuando": "Tercer domingo del mes",
+      "claro": "Solo en el local de San Martín, el tercer domingo del mes.",
+      "hasta": "2026-11-15"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "AD",
+      "palabras": [
+        "almacen de mascotas"
+      ],
+      "rubros": [],
+      "id": "itau-mascotas",
+      "comercio": "Almacén de Mascotas",
+      "tipo": "descuento",
+      "valor": "15%",
+      "detalle": "+ hasta 6 cuotas",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "15% de descuento y hasta 6 cuotas sin intereses.",
+      "hasta": "2026-12-26"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "LU",
+      "palabras": [
+        "luminotecnia"
+      ],
+      "rubros": [],
+      "id": "itau-luminotecnia",
+      "comercio": "Luminotecnia",
+      "tipo": "descuento",
+      "valor": "15%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "AMEX Platinum"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "en productos seleccionados + hasta 10 cuotas",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "15% (20% con Infinite o AMEX Platinum) en productos seleccionados. No aplica a artículos que ya tienen promo.",
+      "hasta": "2026-12-27"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "MP",
+      "palabras": [
+        "coca cola",
+        "mi portal"
+      ],
+      "rubros": [],
+      "id": "itau-coca-cola",
+      "comercio": "Mi Portal Coca-Cola",
+      "tipo": "descuento",
+      "valor": "25%",
+      "detalle": "comprando en la web",
+      "dias": [
+        0
+      ],
+      "cuando": "Domingos",
+      "claro": "Comprando desde el portal web de Coca-Cola. Con QR no aplica.",
+      "tope": "₲ 1.000.000",
+      "hasta": "2026-11-29"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "DT",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-todos-los-dias",
+      "comercio": "Descuentos todos los días",
+      "tipo": "descuento",
+      "valor": "Hasta 40%",
+      "detalle": "en tiendas, hogar y servicios, con cuotas",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Descuento al pagar en estos comercios, casi todos con cuotas sin intereses. Fijate el porcentaje de cada uno.",
+      "comercios": [
+        {
+          "nombre": "Ottoboni",
+          "valor": "40%",
+          "nota": "+10 cuotas · 45% y 12 cuotas con Personal Bank",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Corporacion Mercantil",
+          "valor": "25%",
+          "nota": "+10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "HP Store",
+          "valor": "25%",
+          "nota": "+10 cuotas",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Casa Pro",
+          "valor": "30%",
+          "nota": "pisos, porcelanato, griferías y losas · +10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Essen",
+          "valor": "30%",
+          "nota": "en combos promocionales · +10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Casa Corbellani",
+          "valor": "20%",
+          "nota": "+10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Helpers",
+          "valor": "20%",
+          "nota": "+6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Santo Pilates",
+          "valor": "20%",
+          "nota": "+6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Club del Asado",
+          "valor": "15%",
+          "nota": "+5% con Personal Bank · +10 cuotas",
+          "hasta": "2027-01-01"
+        },
+        {
+          "nombre": "Grupo Condor",
+          "valor": "15%",
+          "nota": "góndola del Shopping del Sol · +6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Zona Fit",
+          "valor": "30%",
+          "nota": "plan anual en Plaza Madero; 25% en Paseo La Galería · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Vicar",
+          "valor": "10%",
+          "nota": "+10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Aventura Park",
+          "valor": "10%",
+          "nota": "+10 cuotas",
+          "hasta": "2027-01-01"
+        },
+        {
+          "nombre": "Varsovia",
+          "dias": [
+            1,
+            2,
+            3
+          ],
+          "valor": "15%",
+          "nota": "lunes a miércoles · +5% con Personal Bank · +6 cuotas",
+          "hasta": "2026-12-30"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "CS",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-cuotas",
+      "comercio": "Cuotas sin intereses",
+      "tipo": "cuotas",
+      "valor": "Hasta 18x",
+      "detalle": "en tecnología, telefonía, salud, educación y más",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Sin intereses solo si pagás el total del resumen cada mes. La línea se ocupa por el total de la compra desde el primer día.",
+      "comercios": [
+        {
+          "nombre": "Gonzalez Gimenez",
+          "valor": "18 cuotas",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Personal",
+          "valor": "12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Tigo",
+          "valor": "12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Claro",
+          "valor": "12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Sanatorio",
+          "valor": "12 cuotas",
+          "nota": "clínicas y sanatorios adheridos a Bancard",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Clinica",
+          "valor": "12 cuotas",
+          "nota": "clínicas y sanatorios adheridos a Bancard",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Municipalidad",
+          "valor": "12 cuotas",
+          "nota": "Asunción, Luque, Lambaré, Encarnación, San Bernardino, Hernandarias, Caaguazú y San Miguel Misiones",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Colegio",
+          "valor": "10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Universidad",
+          "valor": "10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Passline",
+          "valor": "10 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Sara",
+          "valor": "10 cuotas",
+          "hasta": "2026-11-14"
+        },
+        {
+          "nombre": "Hotel",
+          "valor": "6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "La Hora de las Compras",
+          "valor": "6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Garden",
+          "valor": "3 cuotas",
+          "hasta": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "AD",
+      "palabras": [
+        "latam",
+        "boarding pass",
+        "alto vuelo",
+        "mevuelo",
+        "palma travel",
+        "frontur",
+        "agencia de viajes"
+      ],
+      "rubros": [],
+      "id": "itau-viajes",
+      "comercio": "Agencias de viaje y LATAM",
+      "tipo": "cuotas",
+      "valor": "10x",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "AMEX",
+            "Infinite"
+          ],
+          "valor": "12x"
+        }
+      ],
+      "detalle": "agencias, operadoras de turismo y LATAM",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 10 cuotas sin intereses (12 con AMEX o Infinite) en agencias adheridas como Boarding Pass, Alto Vuelo, Mevuelo, Palma Travel, Frontur, Aventura, y en LATAM.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "CC",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-centenario",
+      "comercio": "Club Centenario",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Centenario"
+      ],
+      "detalle": "solo tarjetas Centenario Itaú",
+      "dias": [],
+      "cuando": "Según el local",
+      "claro": "Con la tarjeta Centenario de Itaú, 20% en los locales del club. Fijate el día de cada uno.",
+      "hasta": "2026-12-31",
+      "comercios": [
+        {
+          "nombre": "Sport Bar",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "nota": "lunes a viernes (10% los domingos)"
+        },
+        {
+          "nombre": "Juan Valdez",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes, local del Centenario"
+        },
+        {
+          "nombre": "Carlitos Way",
+          "dias": [
+            5,
+            6,
+            0
+          ],
+          "nota": "viernes a domingo, local del Centenario"
+        },
+        {
+          "nombre": "Gran Bar",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "Cincuentenario & Gran Bar, lunes a sábados"
+        },
+        {
+          "nombre": "Hoyo 19",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "Surubi'i, lunes a sábados"
+        },
+        {
+          "nombre": "Quincho Surubi",
+          "dias": [
+            0
+          ],
+          "nota": "domingos"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "LC",
+      "palabras": [
+        "la cabrera",
+        "cabrera"
+      ],
+      "rubros": [],
+      "id": "itau-amex-la-cabrera",
+      "comercio": "La Cabrera",
+      "tipo": "reintegro",
+      "valor": "30%",
+      "soloTarjetas": [
+        "AMEX"
+      ],
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "AMEX Platinum"
+          ],
+          "valor": "40%"
+        }
+      ],
+      "detalle": "solo American Express",
+      "dias": [],
+      "cuando": "Todo noviembre",
+      "claro": "Con AMEX Oro te devuelven 30% (tope ₲ 500.000); con AMEX Platinum, 40% (tope ₲ 2.000.000).",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "CA",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-cumple-amex",
+      "comercio": "Cumple Amex",
+      "tipo": "descuento",
+      "valor": "Hasta 50%",
+      "soloTarjetas": [
+        "AMEX"
+      ],
+      "detalle": "en tu cumpleaños, tantos % como años cumplís",
+      "dias": [],
+      "cuando": "En tu cumpleaños",
+      "claro": "El descuento es igual a los años que cumplís, hasta 50%. En Tierra Colorada, La Cabrera, Sushiclub, Casa Luma, Mercato La Caoba, Fabric, Alba y Alma. No aplica a bebidas ni a tarjetas adicionales.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "RP",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "itau-pb-gastro",
+      "comercio": "Restaurantes Personal Bank",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "solo Visa Infinite y AMEX Platinum",
+      "dias": [
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Miércoles a domingo",
+      "claro": "Te devuelven 20% en el extracto en estos restaurantes.",
+      "comercios": [
+        {
+          "nombre": "Mercato",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Tierra Colorada",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Talleyrand",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Maurice",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Alba",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Xumaq",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Musiu",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Carossa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Casa Luma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Maria",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Alma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Josephine",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Queseria",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "CY",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-pb-cafes",
+      "comercio": "Cafés y heladerías Personal Bank",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "Häagen-Dazs, El Café de Acá, Paris y Kafea",
+      "dias": [
+        6,
+        0
+      ],
+      "cuando": "Sábados y domingos",
+      "claro": "Te devuelven 20% en el extracto.",
+      "comercios": [
+        {
+          "nombre": "Haagen Dazs",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cafe de Aca",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Paris",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Kafea",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "MR",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-pb-gastro-semana",
+      "comercio": "Más restaurantes Personal Bank",
+      "tipo": "reintegro",
+      "valor": "Hasta 25%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "Sushiclub, Fabric, Alamo y Casa Gin",
+      "dias": [],
+      "cuando": "Según el local",
+      "claro": "Sushiclub: 25% todos los días, también delivery. Fabric: 25% de 12 a 16 hs. Alamo y Casa Gin: 20% de martes a viernes.",
+      "comercios": [
+        {
+          "nombre": "Sushiclub",
+          "valor": "25%",
+          "nota": "todos los días, también delivery",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Fabric",
+          "valor": "25%",
+          "nota": "de 12 a 16 hs · tope ₲ 2.000.000",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Alamo",
+          "dias": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "valor": "20%",
+          "nota": "martes a viernes",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Casa Gin",
+          "dias": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "valor": "20%",
+          "nota": "martes a viernes · tope ₲ 800.000",
+          "hasta": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "VP",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-pb-viernes",
+      "comercio": "Viernes Personal Bank",
+      "tipo": "descuento",
+      "valor": "20%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "Skechers, Puma, TL, Hoka, Henley y Quineo",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "20% de descuento y cuotas sin intereses. Skechers no aplica en Shopping Pinedo; Puma no aplica en outlets.",
+      "comercios": [
+        {
+          "nombre": "Skechers",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Puma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "TL Sports",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Hoka",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Henley",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Quineo",
+          "valor": "20%"
+        }
+      ],
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "JP",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-pb-jueves",
+      "comercio": "Jueves Personal Bank",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "Columbia, Kurt Geiger, Gilardini, Levi's y Vida Estética",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "Descuento al pagar y cuotas sin intereses.",
+      "comercios": [
+        {
+          "nombre": "Columbia",
+          "valor": "25%",
+          "nota": "+10 cuotas"
+        },
+        {
+          "nombre": "Kurt Geiger",
+          "valor": "15%",
+          "nota": "+6 cuotas"
+        },
+        {
+          "nombre": "Gilardini",
+          "valor": "15%",
+          "nota": "+6 cuotas"
+        },
+        {
+          "nombre": "Levis",
+          "valor": "15%",
+          "nota": "+6 cuotas"
+        },
+        {
+          "nombre": "7 for all mankind",
+          "valor": "15%",
+          "nota": "+6 cuotas"
+        },
+        {
+          "nombre": "Vida Estetica",
+          "dias": [
+            4
+          ],
+          "valor": "20%",
+          "nota": "+10 cuotas"
+        },
+        {
+          "nombre": "Yute",
+          "dias": [
+            4
+          ],
+          "valor": "15%",
+          "nota": "solo el tercer jueves del mes · +6 cuotas"
+        }
+      ],
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Itaú",
+      "claveBanco": "itau",
+      "logo": "PB",
+      "palabras": [],
+      "rubros": [],
+      "id": "itau-pb-todos-los-dias",
+      "comercio": "Personal Bank todos los días",
+      "tipo": "descuento",
+      "valor": "Hasta 45%",
+      "soloTarjetas": [
+        "Infinite",
+        "AMEX Platinum"
+      ],
+      "detalle": "hogar, salud y tiendas, con cuotas",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Descuento al pagar y cuotas sin intereses. Fijate el porcentaje y el día de cada uno.",
+      "comercios": [
+        {
+          "nombre": "Simmons",
+          "valor": "45%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Ottoboni",
+          "valor": "45%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Centro Legrand",
+          "valor": "25%",
+          "nota": "+12 cuotas · no aplica a inyectables ni faciales"
+        },
+        {
+          "nombre": "Armele",
+          "valor": "20%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Casaviva",
+          "valor": "20%",
+          "nota": "+10 cuotas"
+        },
+        {
+          "nombre": "Gondwana",
+          "valor": "20%",
+          "nota": "en dispensers · +6 cuotas"
+        },
+        {
+          "nombre": "Teranu",
+          "dias": [
+            3
+          ],
+          "valor": "20%",
+          "nota": "solo miércoles · +6 cuotas"
+        },
+        {
+          "nombre": "Optica Vision",
+          "dias": [
+            1
+          ],
+          "valor": "20%",
+          "nota": "solo lunes · 10% en Ray-Ban y lentes de contacto"
+        },
+        {
+          "nombre": "Plaza Hogar",
+          "dias": [
+            3
+          ],
+          "valor": "20%",
+          "nota": "solo el último miércoles del mes · +10 cuotas"
+        },
+        {
+          "nombre": "Market Place",
+          "dias": [
+            2
+          ],
+          "valor": "20%",
+          "nota": "solo el segundo martes del mes · +10 cuotas"
+        },
+        {
+          "nombre": "Ashley",
+          "dias": [
+            2
+          ],
+          "valor": "20%",
+          "nota": "solo el segundo martes del mes · +10 cuotas"
+        },
+        {
+          "nombre": "Mercedes Benz",
+          "valor": "15%",
+          "nota": "Condor · +10 cuotas"
+        },
+        {
+          "nombre": "Estudio Barcelona",
+          "valor": "10%",
+          "nota": "+10 cuotas"
+        },
+        {
+          "nombre": "Tape Ruvicha",
+          "valor": "5%",
+          "nota": "en repuestos · +6 cuotas"
+        }
+      ],
+      "hasta": "2026-12-31"
     }
   ]
 }
