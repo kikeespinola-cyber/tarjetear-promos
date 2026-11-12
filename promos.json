@@ -3,34 +3,113 @@
   "actualizado": "13/11/2026",
   "promos": [
     {
-      "id": "gnb-ruta-gastronomica",
       "banco": "Banco GNB",
       "claveBanco": "gnb",
-      "comercio": "La Ruta Gastronómica",
-      "logo": "RG",
+      "pago": "Solo con tarjetas de crédito Banco GNB Mastercard, en POS de Bancard.",
+      "logo": "LR",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "gnb-ruta-cafe",
+      "comercio": "La Ruta del Café",
       "tipo": "reintegro",
-      "valor": "25%",
-      "detalle": "reintegro en restaurantes adheridos",
+      "valor": "20%",
+      "detalle": "+5% pagando con QR · cafeterías adheridas",
+      "dias": [
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "cuando": "Miércoles a domingos",
+      "claro": "Te devuelven 20% en el extracto y 5% más si pagás con QR (hasta 25%). El tope es uno solo entre todos los cafés de la promo.",
+      "tope": "₲ 1.000.000 por mes",
+      "comercios": [
+        {
+          "nombre": "Bosko",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Postreria",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Urbano Cafe",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Helena",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Tatakua",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Vecino",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sobremesa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Emporio Aleman",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Herencia",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "pago": "Solo con tarjetas de crédito Banco GNB Mastercard, en POS de Bancard.",
+      "logo": "LR",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "gnb-ruta-gastronomica",
+      "comercio": "La Ruta Gastronómica",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Black",
+            "Metalcard"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "en más de 100 restaurantes de la ARPY",
       "dias": [
         6,
         0
       ],
       "cuando": "Sábados y domingos",
-      "claro": "Pagás el total y te devuelven hasta el 25% después, en tu resumen. «Hasta» quiere decir que según el local puede ser menos.",
+      "claro": "En los restaurantes de la Asociación de Restaurantes del Paraguay: 25% con Black, Black Premier y Metalcard Premier; 20% con Clásica y Oro. Vuelve en el extracto.",
+      "tope": "₲ 1.000.000 por mes, entre todos los locales",
+      "hasta": "2026-11-29"
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "BR",
       "palabras": [],
       "rubros": [
         "restaurante"
-      ]
-    },
-    {
+      ],
       "id": "gnb-bares-resto",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
       "comercio": "Bares & Restó",
-      "logo": "BR",
-      "tipo": "reintegro",
-      "valor": "25%",
-      "detalle": "reintegro en bares y restós adheridos",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "Pira, Dorsia, Honorio, Unaghi y muchos más",
       "dias": [
         3,
         4,
@@ -39,129 +118,1465 @@
         0
       ],
       "cuando": "Miércoles a domingos",
-      "claro": "Pagás el total y te devuelven hasta el 25% en tu resumen. Antes de pedir, preguntá si el local está adherido.",
-      "palabras": [
-        "bar",
-        "resto",
-        "pub"
-      ],
+      "claro": "Hasta 25% en estos bares y restós. Antes de pedir, confirmá que el local esté adherido.",
+      "hasta": "2026-12-31",
+      "comercios": [
+        {
+          "nombre": "Pira",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Dorsia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pulcinella",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ola Poke",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Honorio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "1688",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Unaghi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Jardin Urbano",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Emeterio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Los Lopez",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Cabra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Patio Colonial",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pizzeria Popular",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Uva Terra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Limoncello",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Terra Alta",
+          "valor": "Hasta 25%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "CY",
+      "palabras": [],
       "rubros": [
         "restaurante"
+      ],
+      "id": "gnb-gastro-locales",
+      "comercio": "Comidas y bebidas",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "Burger King, Subway, Popeyes, La Nutry y más",
+      "dias": [],
+      "cuando": "Según el local",
+      "claro": "Cada local tiene su día. Fijate el porcentaje y el día de cada uno en la lista.",
+      "hasta": "2026-12-31",
+      "comercios": [
+        {
+          "nombre": "Burger King",
+          "valor": "25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves"
+        },
+        {
+          "nombre": "Subway",
+          "valor": "25%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "nota": "lunes a viernes"
+        },
+        {
+          "nombre": "Popeyes",
+          "valor": "25%",
+          "dias": [
+            1,
+            2
+          ],
+          "nota": "lunes y martes"
+        },
+        {
+          "nombre": "La Nutry",
+          "valor": "25%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "nota": "lunes a viernes"
+        },
+        {
+          "nombre": "Tu Almacen",
+          "valor": "25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes · +3 cuotas"
+        },
+        {
+          "nombre": "La Casita Gourmet",
+          "valor": "20%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "lunes a sábado"
+        },
+        {
+          "nombre": "El Molinillo",
+          "valor": "20%",
+          "nota": "todos los días"
+        },
+        {
+          "nombre": "Asado Benitez",
+          "valor": "20%",
+          "nota": "todos los días"
+        },
+        {
+          "nombre": "Dona Angela",
+          "valor": "20%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "helados, jueves y viernes"
+        },
+        {
+          "nombre": "Lacteos DA",
+          "valor": "20%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes"
+        },
+        {
+          "nombre": "Coca Cola",
+          "valor": "20%",
+          "dias": [
+            1
+          ],
+          "nota": "Mi Portal Coca-Cola, lunes · 6 cuotas todos los días"
+        },
+        {
+          "nombre": "Decanter",
+          "valor": "15%",
+          "nota": "vinos · +6 cuotas"
+        }
       ]
     },
     {
-      "id": "gnb-copetrol",
       "banco": "Banco GNB",
       "claveBanco": "gnb",
-      "comercio": "Copetrol",
-      "logo": "CP",
-      "tipo": "reintegro",
-      "valor": "30%",
-      "detalle": "reintegro en estaciones adheridas",
-      "dias": [
-        1
+      "logo": "SU",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
       ],
-      "cuando": "Lunes",
-      "claro": "Hasta 30% de vuelta en tu resumen, solo en estaciones adheridas. Si podés, dejá la carga grande para el lunes.",
-      "palabras": [
-        "copetrol"
-      ],
-      "rubros": []
-    },
-    {
-      "id": "gnb-travel",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
-      "comercio": "GNB Travel+",
-      "logo": "GT",
-      "tipo": "cuotas",
-      "valor": "18x",
-      "detalle": "cuotas sin intereses + descuento hasta ₲ 2.000.000",
+      "id": "gnb-super",
+      "comercio": "Supermercados",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "Areté, Festa, Ahorra Más, Jullito, Yasy y más",
       "dias": [],
-      "cuando": "Todos los días",
-      "claro": "Hasta 18 cuotas sin intereses en viajes, más un descuento que puede llegar a ₲ 2.000.000. Sin intereses solo si pagás el total del resumen cada mes.",
-      "palabras": [
-        "gnb travel",
-        "travel"
-      ],
-      "rubros": []
+      "cuando": "Según el súper",
+      "claro": "Cada súper tiene su día. Areté y Festa: 15% todos los días (20% el sábado 21/11, Día GNB).",
+      "hasta": "2027-04-26",
+      "comercios": [
+        {
+          "nombre": "Arete Peron",
+          "valor": "Hasta 25%",
+          "dias": [
+            6
+          ],
+          "nota": "apertura, sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Arete",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "Día GNB, sábado 21/11",
+          "hasta": "2026-11-21"
+        },
+        {
+          "nombre": "Festa",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "Día GNB, sábado 21/11",
+          "hasta": "2026-11-21"
+        },
+        {
+          "nombre": "Arete",
+          "valor": "15%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Festa",
+          "valor": "15%",
+          "nota": "restaurante, todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Ahorra Mas",
+          "valor": "25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Super 2",
+          "valor": "Hasta 20%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Jullito",
+          "valor": "20%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes",
+          "hasta": "2026-12-28"
+        },
+        {
+          "nombre": "Yasy",
+          "valor": "20%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes"
+        },
+        {
+          "nombre": "Casa Rica",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "solo en la web y la app, los miércoles que indican las bases"
+        }
+      ]
     },
     {
-      "id": "gnb-ruta-cafe",
       "banco": "Banco GNB",
       "claveBanco": "gnb",
-      "comercio": "La Ruta del Café",
-      "logo": "RC",
-      "tipo": "reintegro",
-      "valor": "25%",
-      "detalle": "reintegro en cafeterías adheridas",
+      "pago": "Solo con tarjetas de crédito Banco GNB Mastercard, en POS de Bancard.",
+      "logo": "CO",
+      "palabras": [],
+      "rubros": [
+        "combustible"
+      ],
+      "id": "gnb-combustible",
+      "comercio": "Combustible",
+      "tipo": "descuento",
+      "valor": "Hasta 30%",
+      "detalle": "Copetrol, Petrobras, Petrochaco y Petrosur",
       "dias": [
-        3,
-        4,
-        5,
-        6,
-        0
-      ],
-      "cuando": "Miércoles a domingos",
-      "claro": "Pagás el total y te devuelven hasta el 25% en tu resumen.",
-      "palabras": [
-        "cafe",
-        "cafeteria",
-        "coffee"
-      ],
-      "rubros": []
-    },
-    {
-      "id": "gnb-universidades",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
-      "comercio": "Universidades",
-      "logo": "UN",
-      "tipo": "reintegro",
-      "valor": "15%",
-      "detalle": "reintegro + hasta 12 cuotas sin intereses",
-      "dias": [],
-      "diasMes": [
         1,
-        10
+        2,
+        3,
+        5
       ],
-      "cuando": "Del 1 al 10 de cada mes",
-      "claro": "Pagá la cuota de la facu en los primeros 10 días del mes: te devuelven 15% y podés hacerlo en hasta 12 cuotas.",
-      "palabras": [
-        "universidad",
-        "facultad",
-        "facu",
-        "uni"
-      ],
-      "rubros": []
+      "cuando": "Según la estación",
+      "claro": "Lunes Copetrol y Copemarket (hasta 30%), martes Petrochaco, miércoles Petrobras y viernes Petrosur (20%).",
+      "hasta": "2026-12-30",
+      "comercios": [
+        {
+          "nombre": "Copetrol",
+          "valor": "Hasta 30%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes",
+          "hasta": "2026-12-28"
+        },
+        {
+          "nombre": "Copemarket",
+          "valor": "Hasta 30%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes",
+          "hasta": "2026-12-28"
+        },
+        {
+          "nombre": "Petrochaco",
+          "valor": "20%",
+          "dias": [
+            2
+          ],
+          "nota": "martes",
+          "hasta": "2026-12-29"
+        },
+        {
+          "nombre": "Petrobras",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "miércoles"
+        },
+        {
+          "nombre": "Premmia",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "miércoles"
+        },
+        {
+          "nombre": "Petrosur",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-12-25"
+        }
+      ]
     },
     {
-      "id": "gnb-petrobras",
       "banco": "Banco GNB",
       "claveBanco": "gnb",
-      "comercio": "Petrobras Premmia",
-      "logo": "PB",
-      "tipo": "reintegro",
-      "valor": "20%",
-      "detalle": "reintegro pagando desde la app Premmia",
-      "dias": [
-        3
+      "logo": "FA",
+      "palabras": [],
+      "rubros": [
+        "farmacia"
       ],
-      "cuando": "Miércoles",
-      "claro": "Solo vale si pagás desde la app Premmia. Si pasás la tarjeta directo en el surtidor, no aplica.",
+      "id": "gnb-farmacias",
+      "comercio": "Farmacias",
+      "tipo": "descuento",
+      "valor": "Hasta 35%",
+      "detalle": "Farmacenter, Farmatotal, Santa Victoria, Drugstore y más",
+      "dias": [],
+      "cuando": "Según la farmacia",
+      "claro": "Cada farmacia tiene su día. Fijate el porcentaje de cada una en la lista.",
+      "hasta": "2026-12-31",
+      "comercios": [
+        {
+          "nombre": "Farmacenter",
+          "valor": "Hasta 35%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes · 3 cuotas todos los días",
+          "hasta": "2026-12-28"
+        },
+        {
+          "nombre": "Farmatotal",
+          "valor": "Hasta 35%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves, solo GNB Mastercard · +3 cuotas"
+        },
+        {
+          "nombre": "Santa Victoria",
+          "valor": "35%",
+          "dias": [
+            2
+          ],
+          "nota": "martes",
+          "hasta": "2026-12-29"
+        },
+        {
+          "nombre": "Drugstore",
+          "valor": "32% + 10%",
+          "nota": "todos los días, solo GNB Mastercard · hasta 32% en caja + 10% de reintegro"
+        },
+        {
+          "nombre": "Blue Farma",
+          "valor": "20%",
+          "dias": [
+            1
+          ],
+          "nota": "lunes · 6 cuotas todos los días",
+          "hasta": "2026-12-28"
+        },
+        {
+          "nombre": "Farmavip",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "miércoles",
+          "hasta": "2026-12-30"
+        },
+        {
+          "nombre": "Farmalife",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "miércoles",
+          "hasta": "2026-12-30"
+        },
+        {
+          "nombre": "Farma Lorena",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes, Central y sucursales 3 y 4",
+          "hasta": "2026-12-25"
+        },
+        {
+          "nombre": "Vida",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "Farmacia Vida +, viernes",
+          "hasta": "2026-12-25"
+        }
+      ]
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "TR",
+      "palabras": [],
+      "rubros": [
+        "ropa"
+      ],
+      "id": "gnb-tiendas",
+      "comercio": "Tiendas, ropa y calzados",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "jueves y viernes en más de 70 marcas + 6 cuotas",
+      "dias": [],
+      "cuando": "Jueves, viernes y sábados según la tienda",
+      "claro": "Hasta 25% según la marca y el día, y hasta 6 cuotas sin intereses todos los días. Varias vencen a fin de noviembre.",
+      "hasta": "2027-01-29",
+      "comercios": [
+        {
+          "nombre": "Meta Sports",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "360 Sneaker",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Adidas",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Vans",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Nike",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Rookie",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Academy",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Gino Ventori",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Melissa",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Democrata",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Eneache",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "primer y último jueves del mes",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Rondina",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "primer y último jueves del mes",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "RND",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "primer y último jueves del mes",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Estilo Sur",
+          "valor": "Hasta 25%",
+          "dias": [
+            4
+          ],
+          "nota": "primer y último jueves del mes",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Anouk",
+          "valor": "Hasta 20%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Hans",
+          "valor": "Hasta 20%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Baby an",
+          "valor": "Hasta 20%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2026-11-26"
+        },
+        {
+          "nombre": "Forever 21",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Springfield",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Women secret",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Jack Jones",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Champs Elysees",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "O Boticario",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Isdin",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Body Club",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Urban Haus",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "American Look",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Kenneth Cole",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Aeropostale",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Lotto",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Sport House",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Puma",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Kappa",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Skechers",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Patrol",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Vernier",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Raphaella Booz",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Mercedes Benz Collection",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Armele",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Denoir",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "CAT",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Cole Haan",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Crocs",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Timberland",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Outdoors",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Guess",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Artemera",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "New Balance",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Jeep",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Mango",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "primer y tercer viernes del mes"
+        },
+        {
+          "nombre": "Cortefiel",
+          "valor": "Hasta 25%",
+          "dias": [
+            5
+          ],
+          "nota": "primer y tercer viernes del mes"
+        },
+        {
+          "nombre": "Penina",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Galan",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Mongomery",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "DDC",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Pame Garelik",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Cecconello",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Di Valentini",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Shelly",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Rajomar",
+          "valor": "Hasta 20%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Boxes",
+          "valor": "25%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-12-26"
+        },
+        {
+          "nombre": "Althina",
+          "valor": "20%",
+          "dias": [
+            5,
+            6
+          ],
+          "nota": "viernes y sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Guns",
+          "valor": "20%",
+          "dias": [
+            4
+          ],
+          "nota": "jueves",
+          "hasta": "2027-01-28"
+        },
+        {
+          "nombre": "Liberato",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes",
+          "hasta": "2027-01-29"
+        },
+        {
+          "nombre": "Moni Schuss",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "primer y tercer viernes del mes",
+          "hasta": "2027-01-15"
+        },
+        {
+          "nombre": "Ares",
+          "valor": "15%",
+          "dias": [
+            5
+          ],
+          "nota": "viernes · +6 cuotas",
+          "hasta": "2027-01-25"
+        },
+        {
+          "nombre": "Padel Point",
+          "valor": "10%",
+          "dias": [
+            5
+          ],
+          "nota": "primer viernes del mes · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Paats",
+          "valor": "20%",
+          "nota": "todos los días · +6 cuotas",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Farfalle",
+          "valor": "20%",
+          "nota": "todos los días · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Cerogrado",
+          "valor": "20%",
+          "nota": "todos los días · +6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Deport Center",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "Encarnación, jueves y viernes",
+          "hasta": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "HS",
+      "palabras": [],
+      "rubros": [],
+      "id": "gnb-varios",
+      "comercio": "Hogar, salud y más",
+      "tipo": "descuento",
+      "valor": "Hasta 50%",
+      "detalle": "Depilife, Safe Bag, El Negro, Essen, Avenida y más",
+      "dias": [],
+      "cuando": "Según el comercio",
+      "claro": "Descuento al pagar, casi siempre con cuotas sin intereses. Fijate el porcentaje y el día de cada uno.",
+      "hasta": "2027-02-28",
+      "comercios": [
+        {
+          "nombre": "Depilife",
+          "valor": "50%",
+          "nota": "todos los días · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Safe Bag",
+          "valor": "50%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "El Negro",
+          "valor": "Hasta 45%",
+          "dias": [
+            5
+          ],
+          "nota": "suplementos, viernes · +6 cuotas",
+          "hasta": "2027-01-29"
+        },
+        {
+          "nombre": "Avenida",
+          "valor": "30%",
+          "dias": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "Avenida Autocentro, miércoles a sábados · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Essen",
+          "valor": "Hasta 25%",
+          "nota": "+12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Casa Parana",
+          "valor": "25%",
+          "dias": [
+            6
+          ],
+          "nota": "sábados",
+          "hasta": "2026-11-28"
+        },
+        {
+          "nombre": "Todo Cubierta",
+          "valor": "Hasta 25%",
+          "nota": "+12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Globalbox",
+          "valor": "Hasta 25%",
+          "nota": "+6 cuotas",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Moet Hennessy",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes · +6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Literato",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes · +6 cuotas",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Me Encanta",
+          "valor": "Hasta 25%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "juguetería, jueves y viernes · +6 cuotas",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "Piccolino",
+          "valor": "Hasta 20%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes · +6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Anjos",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "colchones, viernes · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Tonina",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "miércoles · +12 cuotas",
+          "hasta": "2026-12-30"
+        },
+        {
+          "nombre": "Mercado Digital",
+          "valor": "Hasta 20%",
+          "dias": [
+            5
+          ],
+          "nota": "primer y tercer viernes del mes · +12 cuotas",
+          "hasta": "2027-01-29"
+        },
+        {
+          "nombre": "Meyerlab",
+          "valor": "Hasta 20%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "lunes a sábados · +12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Nova",
+          "valor": "20%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "librería, lunes a sábados · +6 cuotas",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Alamo",
+          "valor": "20%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nota": "lunes a sábados · +6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Kawaii",
+          "valor": "20%",
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "nota": "librería, lunes a viernes",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Baza",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Chiqui Chic",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Kaia Club",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Hiper Fiesta",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "For Pets",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Cat Town",
+          "valor": "20%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Fixocargo",
+          "valor": "20%",
+          "nota": "+6 cuotas",
+          "hasta": "2027-02-28"
+        },
+        {
+          "nombre": "Fauna Town",
+          "valor": "20%",
+          "nota": "+6 cuotas",
+          "hasta": "2026-12-18"
+        },
+        {
+          "nombre": "Agrofield",
+          "valor": "20%",
+          "nota": "+6 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Valemar",
+          "valor": "20%",
+          "nota": "óptica · +6 cuotas",
+          "hasta": "2026-11-27"
+        },
+        {
+          "nombre": "NGO",
+          "valor": "Hasta 20%",
+          "nota": "+12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "HydroClean",
+          "valor": "Hasta 20%",
+          "nota": "+12 cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Charpentier",
+          "valor": "15%",
+          "nota": "+ cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "FCE",
+          "valor": "15%",
+          "nota": "+ cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "San Isidro",
+          "valor": "15%",
+          "nota": "+ cuotas",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Arte Actual",
+          "valor": "10%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "ZR Distribuidora",
+          "valor": "10%",
+          "nota": "todos los días",
+          "hasta": "2026-12-31"
+        },
+        {
+          "nombre": "Juank",
+          "valor": "10%",
+          "nota": "en mano de obra, Encarnación · +6 cuotas",
+          "hasta": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "CI",
       "palabras": [
-        "petrobras",
-        "premmia"
+        "cinemark"
       ],
       "rubros": [],
-      "pago": "Solo pagando desde la app Premmia."
-    },
-    {
       "id": "gnb-cinemark",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
       "comercio": "Cinemark",
-      "logo": "CM",
       "tipo": "descuento",
       "valor": "50%",
       "detalle": "de descuento",
@@ -173,89 +1588,434 @@
       ],
       "cuando": "Jueves a domingos",
       "claro": "Es descuento directo: pagás la mitad en el momento, no tenés que esperar el reintegro.",
-      "palabras": [
-        "cinemark",
-        "cine"
-      ],
-      "rubros": []
+      "hasta": "2027-02-28"
     },
     {
-      "id": "gnb-peluquerias",
       "banco": "Banco GNB",
       "claveBanco": "gnb",
-      "comercio": "Peluquerías & Spa",
-      "logo": "PS",
-      "tipo": "reintegro",
-      "valor": "25%",
-      "detalle": "reintegro + 3 cuotas sin intereses",
-      "dias": [
-        5,
-        6
-      ],
-      "cuando": "Viernes y sábados",
-      "claro": "Hasta 25% de vuelta en tu resumen y podés pagarlo en 3 cuotas sin intereses.",
+      "logo": "GT",
       "palabras": [
-        "peluqueria",
-        "spa",
-        "barberia",
-        "salon"
+        "travelpay",
+        "gnb travel",
+        "agencia de viajes",
+        "aerolinea"
       ],
-      "rubros": []
-    },
-    {
-      "id": "gnb-arete-festa",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
-      "comercio": "Areté y Festa",
-      "logo": "AF",
-      "tipo": "reintegro",
-      "valor": "15%",
-      "detalle": "reintegro en supermercado y restaurante",
-      "dias": [],
-      "cuando": "Todos los días",
-      "claro": "15% de vuelta en tu resumen todos los días, tanto en el súper como en el restaurante.",
-      "palabras": [
-        "arete",
-        "festa"
-      ],
-      "rubros": []
-    },
-    {
-      "id": "gnb-electronica",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
-      "comercio": "Electrónica y electrodomésticos",
-      "logo": "EL",
+      "rubros": [],
+      "id": "gnb-travel",
+      "comercio": "GNB Travel+",
       "tipo": "cuotas",
-      "valor": "12x",
-      "detalle": "cuotas sin intereses",
+      "valor": "18x",
+      "detalle": "descuento en paquetes + hasta 18 cuotas",
       "dias": [],
       "cuando": "Todos los días",
-      "claro": "Sin intereses solo si pagás el total cada mes. Ojo: la línea se ocupa por el total de la compra desde el primer día.",
+      "claro": "Descuento directo en paquetes de viaje y hasta 18 cuotas sin intereses, pagando con TravelPay en agencias de viajes. También 18 cuotas en todas las agencias y aerolíneas con POS de Bancard.",
+      "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco GNB",
+      "claveBanco": "gnb",
+      "logo": "CS",
       "palabras": [],
       "rubros": [
         "tecnologia"
+      ],
+      "id": "gnb-cuotas",
+      "comercio": "Cuotas sin intereses",
+      "tipo": "cuotas",
+      "valor": "Hasta 18x",
+      "detalle": "electrónica, hogar, autos, salud, educación y más",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "12 cuotas en todas las tiendas de electrónica y electrodomésticos del país con POS de Bancard, colegios, universidades y municipalidades adheridas. Sin intereses solo si pagás el total del resumen cada mes.",
+      "todoElRubro": true,
+      "hasta": "2026-12-31",
+      "comercios": [
+        {
+          "nombre": "Rakiura",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Nissei",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Alemania Cell",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Cell Shop",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Visuar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Fercell",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Compu Market",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Shopping China",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Personal",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Claro",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "24.7",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Automaq",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Chacomer",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Nova Tire",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Garden",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "La Rueda",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "De la Sobera",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Neupar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Tape Ruvicha",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "ACE",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Dehzar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Inoga",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Achon",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Kube",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Todo Compras",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Amo mi Casa",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Trebol",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Fermaco",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Ferrex",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Luminotecnia",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Climarco",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Bristol",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "La Bella Cucina",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Aqualar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Prestigio",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Emtop",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "De la Paz",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Impacto",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "All Office",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Alpa",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Shopping Herrajes",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "PSA",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Pandolfo",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Monte Serra",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "CBC",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Doha",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Casa Pro",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Zilli",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Ulix",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Asismed",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Wellness Clinic",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Margraf",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Odontologia 3",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Arco",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Oral Studio",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Moplex",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Marsal",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Volta",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Carestino",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Ediciones Tecnicas",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Unicartoon",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Keeper",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Office World",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Oneride",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Com-Par",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Jardin de la Paz",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Fortezza",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Master Shop",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "IMAG",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Go Fit",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Cafe Xpress",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Siegen",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Protek",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Microfal",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Maquicenter",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "BM",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Powersol",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Samurai",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Oben",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Eficon",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Solucion Lab",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Maxi Color",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Colegio",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Universidad",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Municipalidad",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Gadget",
+          "valor": "12 cuotas",
+          "hasta": "2026-11-30"
+        },
+        {
+          "nombre": "Ferre Garden",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "MyShuzz",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Match",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "H&M",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Baume",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Cindy Zayas",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Cycles Shop",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "El Pescador",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Ruschel",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Optica Itapua",
+          "valor": "6 cuotas"
+        }
       ]
-    },
-    {
-      "id": "gnb-meta-sports",
-      "banco": "Banco GNB",
-      "claveBanco": "gnb",
-      "comercio": "Meta Sports",
-      "logo": "MS",
-      "tipo": "descuento",
-      "valor": "25%",
-      "detalle": "descuento + hasta 6 cuotas sin intereses",
-      "dias": [
-        4
-      ],
-      "cuando": "Jueves",
-      "claro": "Descuento directo en caja y además podés pagarlo en hasta 6 cuotas sin intereses.",
-      "palabras": [
-        "meta sports",
-        "metasports"
-      ],
-      "rubros": []
     },
     {
       "banco": "Sudameris",
@@ -3513,6 +5273,3002 @@
         }
       ],
       "hasta": "2026-12-31"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "JD",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
+      ],
+      "id": "basa-super-jueves",
+      "comercio": "Jueves de Supermercados",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "Salemma, Real, Box, La Preferida y más",
+      "dias": [
+        4
+      ],
+      "cuando": "Jueves",
+      "claro": "20% de ahorro todos los jueves en estos súper, con tarjetas de crédito seleccionadas. Confirmá en las bases si es en caja o en el extracto.",
+      "comercios": [
+        {
+          "nombre": "Salemma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Real",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Box Mayorista",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Pueblo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Preferida",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Rosarina",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Los Jardines",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Villa Sofia",
+          "valor": "20%"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "FA",
+      "palabras": [
+        "farmacenter"
+      ],
+      "rubros": [],
+      "id": "basa-farmacenter",
+      "comercio": "Farmacenter",
+      "tipo": "descuento",
+      "valor": "25% + 10%",
+      "soloTarjetas": [
+        "Farmacenter",
+        "Black",
+        "Signature"
+      ],
+      "detalle": "solo tarjetas Farmacenter, Mastercard Black y Visa Signature",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "25% al pagar + 10% de reintegro en productos seleccionados; en medicamentos, 20% + 10%. Con cuotas sin intereses.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "RA",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "basa-gastro-signature",
+      "comercio": "Restaurantes adheridos",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "soloTarjetas": [
+        "Signature",
+        "Oro"
+      ],
+      "detalle": "todos los días con Visa Signature y Mastercard Oro",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Con Visa Signature o Mastercard Oro, hasta 25% en más de 100 restaurantes, todos los días. Con otras tarjetas seleccionadas, solo los viernes.",
+      "comercios": [
+        {
+          "nombre": "Acuarela",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Almacen de Sushi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Antillas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bar Leo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bar San Roque",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bellini",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bistro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bocatta",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bolsi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bom Corte",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Brasa y Lena",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Brujas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bucca",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Burger King",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Carlitos Way",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Casteletto",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Chaval",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Costa Colon",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Del Popolo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Cafe Frances",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Legado",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Molino",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Nido",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Toque Aleman",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ese Lugar",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Fontana",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Frank Burger",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Guay",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Gula",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Grosso",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Hiroshima",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Il Mercato",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Honey",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Honorio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Javorai",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Kaffe'i",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "KFC",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Kava",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Carolina",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Casita Gourmet",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Despechada",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Nutry",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Piccola Romanaccio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Prefe",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Preferida",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Vienesa",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Le Sommelier",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Lido Bar",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mau Mau",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Margarita",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Maximo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mburuvicha",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mc Carthys",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "McDonalds",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mc Donalds",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mercadito Emporio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Milord",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Moshi Moshi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mostaza",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mume",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Narma",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Naturissima",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Na Eustaquia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Na Virginia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ochocientos Treinta y Seis",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "836",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Oveja Negra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Papillon",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Paraqvaria",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pato No Vinil",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Paulista Grill",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pederzani",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pizza Hut",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Porchetta",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Puerto Pira",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Quattro D",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ravello",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Rich",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Rodizio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sabores de Mi Tierra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "San Miguel",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "San Pietro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Santoche",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sawasdee",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Shangri La",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sin Culpas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Stilo Campo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sul Brasil",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Taberna Espanola",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Takuare'e",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tempo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tia Laura",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tio Lucas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Todo Rico",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Toro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Treffen",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Urbano Cafe",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Westfalia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Xumaq",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Yasyreta",
+          "valor": "Hasta 25%"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "VD",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "basa-gastro-viernes",
+      "comercio": "Viernes de restaurantes",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "en más de 100 restaurantes adheridos",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "Hasta 25% los viernes con tarjetas de crédito seleccionadas. Si tenés Visa Signature o Mastercard Oro, vale todos los días.",
+      "comercios": [
+        {
+          "nombre": "Acuarela",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Almacen de Sushi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Antillas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bar Leo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bar San Roque",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bellini",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bistro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bocatta",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bolsi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bom Corte",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Brasa y Lena",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Brujas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Bucca",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Burger King",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Carlitos Way",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Casteletto",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Chaval",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Costa Colon",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Del Popolo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Cafe Frances",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Legado",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Molino",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "El Nido",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Toque Aleman",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ese Lugar",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Fontana",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Frank Burger",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Guay",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Gula",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Grosso",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Hiroshima",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Il Mercato",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Honey",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Honorio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Javorai",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Kaffe'i",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "KFC",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Kava",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Carolina",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Casita Gourmet",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Despechada",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Nutry",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Piccola Romanaccio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Prefe",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Preferida",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "La Vienesa",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Le Sommelier",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Lido Bar",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mau Mau",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Margarita",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Maximo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mburuvicha",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mc Carthys",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "McDonalds",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mc Donalds",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mercadito Emporio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Milord",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Moshi Moshi",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mostaza",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Mume",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Narma",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Naturissima",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Na Eustaquia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Na Virginia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ochocientos Treinta y Seis",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "836",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Oveja Negra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Papillon",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Paraqvaria",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pato No Vinil",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Paulista Grill",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pederzani",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Pizza Hut",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Porchetta",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Puerto Pira",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Quattro D",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Ravello",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Rich",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Rodizio",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sabores de Mi Tierra",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "San Miguel",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "San Pietro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Santoche",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sawasdee",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Shangri La",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sin Culpas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Stilo Campo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Sul Brasil",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Taberna Espanola",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Takuare'e",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tempo",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tia Laura",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Tio Lucas",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Todo Rico",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Toro",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Treffen",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Urbano Cafe",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Westfalia",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Xumaq",
+          "valor": "Hasta 25%"
+        },
+        {
+          "nombre": "Yasyreta",
+          "valor": "Hasta 25%"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "RD",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "basa-gastro-destacados",
+      "comercio": "Restaurantes destacados",
+      "tipo": "descuento",
+      "valor": "Hasta 30%",
+      "detalle": "Bernardino, Kzero, Don Vito, Sbarro, Piato y más",
+      "dias": [],
+      "cuando": "Según el local",
+      "claro": "Fijate el porcentaje y el día de cada uno.",
+      "comercios": [
+        {
+          "nombre": "Bernardino",
+          "valor": "30%",
+          "dias": [
+            5
+          ],
+          "nota": "solo viernes"
+        },
+        {
+          "nombre": "Kzero",
+          "valor": "30%",
+          "nota": "La Cocina de Kzero"
+        },
+        {
+          "nombre": "Don Vito",
+          "valor": "25%",
+          "nota": "hasta 25%"
+        },
+        {
+          "nombre": "Sbarro",
+          "valor": "25%",
+          "nota": "hasta 25%"
+        },
+        {
+          "nombre": "Piato",
+          "valor": "25%",
+          "nota": "+ cuotas"
+        },
+        {
+          "nombre": "Amandau",
+          "valor": "20%",
+          "nota": "Santa Rita"
+        },
+        {
+          "nombre": "Tio Lucas",
+          "valor": "20%",
+          "dias": [
+            3
+          ],
+          "nota": "solo miércoles"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "pago": "Desde la app Mi Enex (con Visa Signature también en playa).",
+      "logo": "EN",
+      "palabras": [
+        "enex"
+      ],
+      "rubros": [],
+      "id": "basa-enex",
+      "comercio": "Enex",
+      "tipo": "descuento",
+      "valor": "Hasta 25%",
+      "detalle": "pagando desde la app Mi Enex",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "Hasta 25% los miércoles pagando desde la app Mi Enex. Con Visa Signature vale todos los días, en la app y en playa.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "DT",
+      "palabras": [],
+      "rubros": [],
+      "id": "basa-descuentos",
+      "comercio": "Descuentos todos los días",
+      "tipo": "descuento",
+      "valor": "Hasta 50%",
+      "detalle": "salud, gimnasios, hogar, tiendas, autos y más",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Con tarjetas de crédito seleccionadas. Casi todos suman cuotas sin intereses. Fijate el porcentaje y el día de cada uno.",
+      "comercios": [
+        {
+          "nombre": "El Negro",
+          "valor": "50%",
+          "nota": "suplementos · hasta 50%"
+        },
+        {
+          "nombre": "Garden Club",
+          "valor": "50%",
+          "nota": "en la primera cuota, para socios que adhieran el débito automático"
+        },
+        {
+          "nombre": "Exen",
+          "valor": "47%",
+          "nota": "gimnasio · hasta 47%"
+        },
+        {
+          "nombre": "Vialaser",
+          "valor": "45%",
+          "nota": "hasta 45%"
+        },
+        {
+          "nombre": "Traumatocenter",
+          "valor": "40%",
+          "nota": "hasta 40%"
+        },
+        {
+          "nombre": "Odontoestetica",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Luz Spa",
+          "valor": "30%"
+        },
+        {
+          "nombre": "Younique",
+          "valor": "30%",
+          "dias": [
+            4
+          ],
+          "nota": "solo jueves"
+        },
+        {
+          "nombre": "Bendito Spa",
+          "valor": "25%",
+          "dias": [
+            3
+          ],
+          "nota": "solo miércoles"
+        },
+        {
+          "nombre": "CIEP",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Physical Studio",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Land Rover",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Importadora Avenida",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Rodar",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Cycles Shop",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Damat",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Essen",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Kids Atelier",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Penti",
+          "valor": "25%"
+        },
+        {
+          "nombre": "Didonna",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Conectarte",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Livanto",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Soham",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Solumedic",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Autolav",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Epesa",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Yhaguy",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Block Gym",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Aymac",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Morlas Team",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Saga Gym",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ferremas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "ZR Distribuidora",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Free Spirit",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Granja Don Papalo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Navegando",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Huellitas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sweet Dog",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ametec",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Basic In",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Fuzion",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Fristil",
+          "valor": "20%"
+        },
+        {
+          "nombre": "ISAD",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Keiki",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Valentina Home",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Wisner",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Aura Padel",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sky Armor",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pretty Station",
+          "valor": "20%",
+          "dias": [
+            4
+          ],
+          "nota": "solo jueves"
+        },
+        {
+          "nombre": "Sanatorio San Carlos",
+          "valor": "20%",
+          "dias": [
+            5,
+            6
+          ],
+          "nota": "viernes y sábados"
+        },
+        {
+          "nombre": "Haras La Valtellina",
+          "valor": "20%",
+          "dias": [
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          "nota": "miércoles a domingos"
+        },
+        {
+          "nombre": "Ferregarden",
+          "valor": "20%",
+          "dias": [
+            6
+          ],
+          "nota": "solo sábados"
+        },
+        {
+          "nombre": "Pepita",
+          "valor": "20%",
+          "dias": [
+            5
+          ],
+          "nota": "Pepita y Alabama Hogar, solo viernes"
+        },
+        {
+          "nombre": "Capodarte",
+          "valor": "20%",
+          "dias": [
+            4
+          ],
+          "nota": "solo jueves"
+        },
+        {
+          "nombre": "Rapidoc",
+          "valor": "20%",
+          "nota": "20% en diagnósticos, 10% en consultas · solo tarjetas Afinidad Farmacenter"
+        },
+        {
+          "nombre": "Oral Med",
+          "valor": "15%"
+        },
+        {
+          "nombre": "MyM Odontologia",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Mar del Norte",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Alaia",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Aloft",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Hilton",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Sheraton",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Borja Guitarras",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Plantar Support",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Ceprocal",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Koncept",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Energy Green",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Jardin de la Paz",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Guma Store",
+          "valor": "10%"
+        },
+        {
+          "nombre": "Servicios Ejecutivos",
+          "valor": "20%",
+          "nota": "hasta 20%"
+        },
+        {
+          "nombre": "Atlantico Shop",
+          "valor": "10%",
+          "nota": "en tu primera compra por la web"
+        },
+        {
+          "nombre": "Estetica Dental Zale",
+          "valor": "5%"
+        },
+        {
+          "nombre": "Hierropar",
+          "valor": "5%"
+        },
+        {
+          "nombre": "Portal Viajes",
+          "valor": "5%"
+        },
+        {
+          "nombre": "Viajo Bien",
+          "valor": "5%"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Basa",
+      "claveBanco": "basa",
+      "logo": "CS",
+      "palabras": [],
+      "rubros": [],
+      "id": "basa-cuotas",
+      "comercio": "Cuotas sin intereses",
+      "tipo": "cuotas",
+      "valor": "Hasta 36x",
+      "detalle": "tecnología, hogar, salud, educación, autos y más",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Sin intereses solo si pagás el total del resumen cada mes. La línea se ocupa por el total de la compra desde el primer día.",
+      "comercios": [
+        {
+          "nombre": "Orcam",
+          "valor": "36 cuotas"
+        },
+        {
+          "nombre": "Visuar",
+          "valor": "24 cuotas"
+        },
+        {
+          "nombre": "Stilo Salud",
+          "valor": "24 cuotas"
+        },
+        {
+          "nombre": "Jardin Paraiso",
+          "valor": "24 cuotas"
+        },
+        {
+          "nombre": "Automotor",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Alemania Cell",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Compulandia",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Gen Z",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "iStore",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Madrid Center",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Motorola",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Nissei",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Samsung",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Tienda Personal",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Bristol",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Central Shopp",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "NGO",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Pandolfo",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Ciella",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Campoalto",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Las Almenas",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "New Zone",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Agencia de viajes",
+          "valor": "18 cuotas"
+        },
+        {
+          "nombre": "Municipalidad",
+          "valor": "12 cuotas",
+          "nota": "18 en Asunción y San Bernardino"
+        },
+        {
+          "nombre": "ACM",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Chacomer",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Neumar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Tape Ruvicha",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Shopping China",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Electroban",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Electrostock",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Inverfin",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Sara",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Mega Star",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Master Shop",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Universo",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Cell Shop",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Mega Electronicos",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Tigo",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Hendyla",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "La Hora de las Compras",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Radioshack",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Hotel",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Universidad Autonoma",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Uninter",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Unisal",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Colegio",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Go Fit",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Optica Arar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Optica Carron",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Valemar",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Centro del Audifono",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Fortis",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Garden",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Planet Outlet",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Aquario Joyas",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Marsal",
+          "valor": "6 cuotas"
+        },
+        {
+          "nombre": "Rondina",
+          "valor": "6 cuotas"
+        }
+      ],
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Zeta Banco",
+      "claveBanco": "zeta",
+      "logo": "FA",
+      "palabras": [],
+      "rubros": [
+        "farmacia"
+      ],
+      "id": "zeta-farmacias",
+      "comercio": "Farmacias",
+      "tipo": "descuento",
+      "valor": "Hasta 50%",
+      "detalle": "Drugstore, Farmacenter y Farmacias Energy",
+      "dias": [],
+      "cuando": "Según la farmacia",
+      "claro": "Drugstore todos los días: hasta 37% en medicamentos nacionales, 22% en importados y otras secciones, + 5% de reintegro. Farmacenter los lunes: hasta 15% en medicamentos y 20% en otras secciones, + 15% de reintegro. Energy jueves y viernes: 50% en productos seleccionados.",
+      "comercios": [
+        {
+          "nombre": "Drugstore",
+          "valor": "37% + 5%",
+          "nota": "hasta 37% en caja (medicamentos nacionales) + 5% de reintegro · +3 cuotas"
+        },
+        {
+          "nombre": "Farmacenter",
+          "valor": "20% + 15%",
+          "dias": [
+            1
+          ],
+          "nota": "solo lunes · hasta 20% en caja + 15% de reintegro"
+        },
+        {
+          "nombre": "Energy",
+          "valor": "50%",
+          "dias": [
+            4,
+            5
+          ],
+          "nota": "jueves y viernes, en productos seleccionados · +3 cuotas"
+        }
+      ]
+    },
+    {
+      "banco": "Zeta Banco",
+      "claveBanco": "zeta",
+      "logo": "DT",
+      "palabras": [],
+      "rubros": [],
+      "id": "zeta-descuentos",
+      "comercio": "Descuentos todos los días",
+      "tipo": "descuento",
+      "valor": "Hasta 30%",
+      "detalle": "salud, ópticas, servicios y más, con cuotas",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Fijate el porcentaje de cada uno. En la mayoría te lo descuentan al pagar; en Quick Service, Universo y La Stampa vuelve en el extracto.",
+      "comercios": [
+        {
+          "nombre": "Optica Arar",
+          "valor": "30%",
+          "nota": "en cristales y armazones · 15% en lentes de contacto · +3 cuotas"
+        },
+        {
+          "nombre": "Iribas",
+          "valor": "30%",
+          "nota": "IRM / Instituto Iribas · +3 cuotas"
+        },
+        {
+          "nombre": "Protectia",
+          "valor": "25%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Progresar",
+          "valor": "25%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Quick Service",
+          "valor": "25%",
+          "nota": "reintegro en el extracto · +12 cuotas"
+        },
+        {
+          "nombre": "Gaston Trossero",
+          "valor": "20%",
+          "nota": "odontología · +12 cuotas"
+        },
+        {
+          "nombre": "La Stampa",
+          "valor": "20%",
+          "dias": [
+            3,
+            4
+          ],
+          "nota": "miércoles y jueves, reintegro en el extracto"
+        },
+        {
+          "nombre": "Optica Meister",
+          "valor": "20%",
+          "nota": "en cristales y armazones en stock · 10% en consultas · +3 cuotas"
+        },
+        {
+          "nombre": "Bourbon",
+          "valor": "10%",
+          "nota": "Destination Club, en la membresía · +12 cuotas"
+        },
+        {
+          "nombre": "Piccolino",
+          "valor": "10%",
+          "nota": "+6 cuotas"
+        },
+        {
+          "nombre": "Universo",
+          "valor": "10%",
+          "nota": "reintegro en el extracto · tope ₲ 5.000.000 por mes · +12 cuotas"
+        },
+        {
+          "nombre": "Asismed",
+          "valor": "5% + 5%",
+          "nota": "5% en caja + 5% de reintegro · hasta 12 cuotas"
+        }
+      ]
+    },
+    {
+      "banco": "Zeta Banco",
+      "claveBanco": "zeta",
+      "logo": "CS",
+      "palabras": [],
+      "rubros": [],
+      "id": "zeta-cuotas",
+      "comercio": "Cuotas sin intereses",
+      "tipo": "cuotas",
+      "valor": "12x",
+      "detalle": "Shopping China, Electroban, Hogar Feliz, Proyec y Kaizen Energy",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas sin intereses. Sin intereses solo si pagás el total del resumen cada mes.",
+      "comercios": [
+        {
+          "nombre": "Shopping China",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Hogar Feliz",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Electroban",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Proyec",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Kaizen Energy",
+          "valor": "12 cuotas"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "VD",
+      "palabras": [],
+      "rubros": [
+        "supermercado"
+      ],
+      "id": "atlas-super-viernes",
+      "comercio": "Viernes de Supermercados",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "Superseis, Stock, Real, Los Jardines y súper del interior",
+      "dias": [
+        5
+      ],
+      "cuando": "Viernes",
+      "claro": "15% de reintegro con Clásica y Oro, 20% con Infinite, Signature o Black. También vale comprando online en superseis.com.py, stock.com.py y realonline.com.py.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Superseis",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Stock",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Real",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Los Jardines",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Beef Shop",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Box Mayorista",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Ara",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Campo 9",
+          "valor": "15%"
+        },
+        {
+          "nombre": "La Sirenita",
+          "valor": "15%"
+        },
+        {
+          "nombre": "La Familia",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Urutau",
+          "valor": "15%"
+        },
+        {
+          "nombre": "La Canasta",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Emanuel",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Fernheim",
+          "valor": "15%"
+        },
+        {
+          "nombre": "El Cacique",
+          "valor": "15%"
+        },
+        {
+          "nombre": "San Cayetano",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Fabiano",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Tres Hermanos",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Lider",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Predileto",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Tambo Verde",
+          "valor": "15%"
+        },
+        {
+          "nombre": "Hipermercado 99",
+          "valor": "15%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "BE",
+      "palabras": [
+        "biggie express",
+        "biggie"
+      ],
+      "rubros": [],
+      "id": "atlas-biggie-15",
+      "comercio": "Biggie Express",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "el 15 de cada mes",
+      "dias": [],
+      "diasMes": [
+        15,
+        15
+      ],
+      "cuando": "El 15 de cada mes",
+      "claro": "Solo el día 15: 20% de reintegro con Clásica y Oro, 25% con Infinite, Signature o Black.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "BM",
+      "palabras": [
+        "box mayorista",
+        "box"
+      ],
+      "rubros": [],
+      "id": "atlas-box",
+      "comercio": "Box Mayorista (Minga Guazú y CDE)",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "el tercer lunes del mes, con todas las tarjetas",
+      "dias": [
+        1
+      ],
+      "semanaMes": 3,
+      "cuando": "Tercer lunes del mes",
+      "claro": "Solo en las sucursales de Minga Guazú y CDE San José.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "GV",
+      "palabras": [
+        "gran via"
+      ],
+      "rubros": [],
+      "id": "atlas-gran-via",
+      "comercio": "Gran Vía (Zona Este)",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "el tercer miércoles del mes",
+      "dias": [
+        3
+      ],
+      "semanaMes": 3,
+      "cuando": "Tercer miércoles del mes",
+      "claro": "Solo en las sucursales de la Zona Este.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "DE",
+      "palabras": [
+        "delimarket",
+        "deli market"
+      ],
+      "rubros": [],
+      "id": "atlas-delimarket",
+      "comercio": "Delimarket",
+      "tipo": "reintegro",
+      "valor": "15%",
+      "soloTarjetas": [
+        "delSol"
+      ],
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "delSol Signature"
+          ],
+          "valor": "20%"
+        }
+      ],
+      "detalle": "solo tarjetas delSol Atlas",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "Con delSol Atlas Clásica 15%, con delSol Atlas Signature 20%.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "ME",
+      "palabras": [],
+      "rubros": [
+        "ropa"
+      ],
+      "id": "atlas-mariscal",
+      "comercio": "Miércoles en Shopping Mariscal",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "en caja + 3 cuotas en más de 40 locales",
+      "dias": [
+        3
+      ],
+      "cuando": "Miércoles",
+      "claro": "20% de descuento en caja y hasta 3 cuotas sin intereses en los locales adheridos de Shopping Mariscal. El miércoles 18/11 (Miércoles Atlas Plus) sumás 10% de reintegro pagando con QR.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Maestro",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Raphaella Booz",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Albertina",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Eneache",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Denoir",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Champs Elysees",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Nasa Jeans",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Aeropostale",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Martel",
+          "valor": "20%"
+        },
+        {
+          "nombre": "American Look",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Daniel Cassin",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Nice",
+          "valor": "20%"
+        },
+        {
+          "nombre": "New Balance",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Timberland",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Eurekakids",
+          "valor": "20%"
+        },
+        {
+          "nombre": "CAT",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Parfois",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Isadora",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Optica Carron",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Match",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Puma",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Sport House",
+          "valor": "20%"
+        },
+        {
+          "nombre": "TL Sports",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Patrol",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Skechers",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Odette",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Armele",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Indio",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Discovery",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Rondina",
+          "valor": "20%"
+        },
+        {
+          "nombre": "O Boticario",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Outdoors",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Alemania Cell",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Optica Vision",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Compu Market",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Maybelline",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Kerastase",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Havaianas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Josefina",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Prune",
+          "valor": "20%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Nueva Americana",
+          "valor": "20%",
+          "nota": "+12 cuotas"
+        },
+        {
+          "nombre": "Veronica Torres",
+          "valor": "10%",
+          "nota": "+3 cuotas"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "VY",
+      "palabras": [],
+      "rubros": [
+        "restaurante"
+      ],
+      "id": "atlas-gastro",
+      "comercio": "Viernes y sábados gastronómicos",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "Almacén de Sushi, Mon Amour, Tía Laura, Grosso y más",
+      "dias": [
+        5,
+        6
+      ],
+      "cuando": "Viernes y sábados",
+      "claro": "20% de reintegro con Clásica y Oro, 25% con Infinite, Signature o Black. También en restaurantes de CDE, Encarnación, Concepción y otras ciudades.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Almacen de Sushi",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Mon Amour",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Tarantella",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Tia Laura",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Grosso",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Bellini",
+          "valor": "20%"
+        },
+        {
+          "nombre": "San Telmo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pizzart",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Distrito Brewing",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Oima Cafe",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cafe Amore",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Novo Rodeio",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Portobello",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Milord",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Fabril",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Green Park",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Victoria Fast Food",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Que Barbaro",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Elite Foods",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Griego",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Drei",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Lola Kafe",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Tomatino",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Artesano",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Costillon",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Fogao Mineiro",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Carreta",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Mansion Irigoyen",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Mc Ardom",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Olivo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Madame",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Amistad",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Guadalupe",
+          "valor": "20%"
+        },
+        {
+          "nombre": "El Chino",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Geisha",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Andalucia",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Carolina",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Point Grill",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Casa Italian",
+          "valor": "20%"
+        },
+        {
+          "nombre": "It Sushi",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Paradiso",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Alff",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Scala",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "LF",
+      "palabras": [
+        "la faena",
+        "kaiseki"
+      ],
+      "rubros": [],
+      "id": "atlas-faena-kaiseki",
+      "comercio": "La Faena y Kaiseki",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "soloTarjetas": [
+        "Infinite",
+        "Signature",
+        "Black"
+      ],
+      "detalle": "solo Infinite, Signature y Black",
+      "dias": [
+        5,
+        6
+      ],
+      "cuando": "Viernes y sábados",
+      "claro": "Con Infinite, Signature o Black te devuelven 25%. La guía no aclara bien el día: confirmá en las bases antes de ir.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "GM",
+      "palabras": [],
+      "rubros": [],
+      "id": "atlas-gastro-mariscal",
+      "comercio": "Gastro Mariscal y Agroshopping",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "patio de comidas de Mariscal y stands de Agroshopping",
+      "dias": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cuando": "Según el lugar",
+      "claro": "Gastro Mariscal de lunes a viernes; Agroshopping los martes en los stands adheridos.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Gastro Mariscal",
+          "valor": "20%",
+          "nota": "lunes a viernes"
+        },
+        {
+          "nombre": "Agroshopping",
+          "valor": "20%",
+          "dias": [
+            2
+          ],
+          "nota": "martes, stands adheridos"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "DD",
+      "palabras": [
+        "delicias de juju",
+        "juju"
+      ],
+      "rubros": [],
+      "id": "atlas-delicias-juju",
+      "comercio": "Delicias de Juju",
+      "tipo": "reintegro",
+      "valor": "25%",
+      "soloTarjetas": [
+        "Infinite",
+        "delSol Signature",
+        "Black"
+      ],
+      "detalle": "solo Infinite, Signature delSol y Black",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Comida libanesa: 25% de reintegro todos los días con Infinite, Signature delSol o Black.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "SD",
+      "palabras": [],
+      "rubros": [],
+      "id": "atlas-peluquerias",
+      "comercio": "Sábado de Spa y Peluquerías",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "Asunción, CDE y Encarnación",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "20% con Clásica y Oro, 25% con Infinite, Signature o Black. La Pelu y Bucci solo con Infinite, Signature o Black.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "La Guarida",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Ava",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Carolina Zarate",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Silana",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Bomo",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Raio Bemba",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Andrea",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Chill Club",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Diana Apodaca",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Carmelitas",
+          "valor": "20%"
+        },
+        {
+          "nombre": "La Pelu",
+          "valor": "25%",
+          "nota": "solo Infinite, Signature y Black"
+        },
+        {
+          "nombre": "Bucci",
+          "valor": "25%",
+          "nota": "solo Infinite, Signature y Black"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "MD",
+      "palabras": [],
+      "rubros": [
+        "combustible"
+      ],
+      "id": "atlas-combustible",
+      "comercio": "Martes de Combustible",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "Petrobras Premmia, Petrosur, Energy y Copetrol",
+      "dias": [
+        2
+      ],
+      "cuando": "Martes",
+      "claro": "20% con Oro y Clásica, 25% con Infinite, Signature o Black, en estaciones adheridas. En Petrobras, solo pagando desde la app Premmia.",
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Petrobras",
+          "valor": "20%",
+          "nota": "solo desde la app Premmia"
+        },
+        {
+          "nombre": "Premmia",
+          "valor": "20%",
+          "nota": "solo desde la app Premmia"
+        },
+        {
+          "nombre": "Petrosur",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Energy",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Copetrol",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "BF",
+      "palabras": [
+        "biggie farma"
+      ],
+      "rubros": [],
+      "id": "atlas-biggie-farma",
+      "comercio": "Biggie Farma",
+      "tipo": "descuento",
+      "valor": "20% + 10%",
+      "detalle": "20% en caja + 10% de reintegro",
+      "dias": [
+        1
+      ],
+      "cuando": "Lunes",
+      "claro": "Te descuentan 20% al pagar y después te devuelven 10% más en el extracto.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "MA",
+      "palabras": [
+        "martiderm"
+      ],
+      "rubros": [],
+      "id": "atlas-martiderm",
+      "comercio": "Martiderm",
+      "tipo": "descuento",
+      "valor": "20%",
+      "detalle": "en caja + 3 cuotas, el último jueves del mes",
+      "dias": [
+        4
+      ],
+      "ultimaSemana": true,
+      "cuando": "Último jueves del mes",
+      "claro": "Solo el último jueves de cada mes: 20% en caja y hasta 3 cuotas.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "pago": "Pagando con QR desde la app de Atlas.",
+      "logo": "SF",
+      "palabras": [
+        "sfera"
+      ],
+      "rubros": [],
+      "id": "atlas-sfera",
+      "comercio": "Sfera",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "detalle": "pagando con QR + 12 cuotas",
+      "dias": [
+        6
+      ],
+      "cuando": "Sábados",
+      "claro": "20% de reintegro pagando con QR y hasta 12 cuotas sin intereses. Distrito Perseverancia.",
+      "hasta": "2026-11-30"
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "FD",
+      "palabras": [],
+      "rubros": [],
+      "id": "atlas-21-22-nov",
+      "comercio": "Fin de semana 21 y 22 de noviembre",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "Mango, Springfield, ISDIN, O Boticário y más + 12 cuotas",
+      "dias": [
+        6,
+        0
+      ],
+      "desde": "2026-11-21",
+      "hasta": "2026-11-22",
+      "cuando": "Sábado 21 y domingo 22 de noviembre",
+      "claro": "20% con Clásica y Oro, 25% con Infinite, Signature o Black, más 12 cuotas sin intereses.",
+      "comercios": [
+        {
+          "nombre": "Springfield",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Pedro del Hierro",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Women secret",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Jack Jones",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Mango",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Cortefiel",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Forever 21",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Isdin",
+          "valor": "20%"
+        },
+        {
+          "nombre": "O Boticario",
+          "valor": "20%"
+        },
+        {
+          "nombre": "Champs Elysees",
+          "valor": "20%"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "NA",
+      "palabras": [
+        "nueva americana"
+      ],
+      "rubros": [],
+      "id": "atlas-nueva-americana",
+      "comercio": "Nueva Americana",
+      "tipo": "descuento",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "12 y 13 de noviembre + 12 cuotas",
+      "dias": [],
+      "desde": "2026-11-12",
+      "hasta": "2026-11-13",
+      "cuando": "12 y 13 de noviembre",
+      "claro": "Descuento en caja: 20% con Oro y Clásica, 25% con Infinite, Signature o Black, más 12 cuotas sin intereses."
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "PA",
+      "palabras": [
+        "parfois"
+      ],
+      "rubros": [],
+      "id": "atlas-parfois",
+      "comercio": "Parfois",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "del 12 al 15 de noviembre + 6 cuotas",
+      "dias": [],
+      "desde": "2026-11-12",
+      "hasta": "2026-11-15",
+      "cuando": "Del 12 al 15 de noviembre",
+      "claro": "20% con Clásica y Oro, 25% con Infinite, Signature o Black, más 6 cuotas sin intereses."
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "SU",
+      "palabras": [
+        "suenolar"
+      ],
+      "rubros": [],
+      "id": "atlas-suenolar",
+      "comercio": "Sueñolar",
+      "tipo": "descuento",
+      "valor": "Hasta 50%",
+      "detalle": "en caja + hasta 18 cuotas y una alfombra de regalo",
+      "dias": [],
+      "desde": "2026-11-16",
+      "hasta": "2026-11-30",
+      "cuando": "Del 16 al 30 de noviembre",
+      "claro": "Hasta 50% de descuento en caja, hasta 18 cuotas sin intereses y te regalan una alfombra."
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "DM",
+      "palabras": [],
+      "rubros": [],
+      "id": "atlas-hogar-fechas",
+      "comercio": "DG Market, Boutique y Spinelli",
+      "tipo": "reintegro",
+      "valor": "20%",
+      "porTarjeta": [
+        {
+          "tarjetas": [
+            "Infinite",
+            "Signature",
+            "Black"
+          ],
+          "valor": "25%"
+        }
+      ],
+      "detalle": "fechas puntuales de noviembre",
+      "dias": [],
+      "desde": "2026-11-16",
+      "hasta": "2026-11-29",
+      "cuando": "Según el comercio",
+      "claro": "DG Market del 16 al 18, Spinelli del 26 al 29 (20% + 12 cuotas con todas las tarjetas) y Boutique el 28 y 29 de noviembre.",
+      "comercios": [
+        {
+          "nombre": "DG Market",
+          "valor": "20%",
+          "nota": "16 al 18 de noviembre",
+          "hasta": "2026-11-18"
+        },
+        {
+          "nombre": "Spinelli",
+          "valor": "20%",
+          "nota": "26 al 29 de noviembre · +12 cuotas"
+        },
+        {
+          "nombre": "Boutique",
+          "valor": "20%",
+          "nota": "28 y 29 de noviembre"
+        }
+      ]
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "BS",
+      "palabras": [
+        "shopping",
+        "paseo la galeria",
+        "multiplaza",
+        "pinedo"
+      ],
+      "rubros": [],
+      "id": "atlas-black-shopping",
+      "comercio": "Black Shopping Weekend",
+      "tipo": "cuotas",
+      "valor": "10x",
+      "detalle": "en los shoppings del país, 27 al 29 de noviembre",
+      "dias": [],
+      "desde": "2026-11-27",
+      "hasta": "2026-11-29",
+      "cuando": "27 al 29 de noviembre",
+      "claro": "Hasta 10 cuotas sin intereses en Mariscal, Paseo La Galería, Pinedo, Villa Morra, Multiplaza y más. Con delSol Atlas, además 10% de reintegro en los locales adheridos del Shopping del Sol."
+    },
+    {
+      "banco": "Banco Atlas",
+      "claveBanco": "atlas",
+      "logo": "CS",
+      "palabras": [],
+      "rubros": [
+        "tecnologia"
+      ],
+      "id": "atlas-cuotas",
+      "comercio": "Cuotas sin intereses",
+      "tipo": "cuotas",
+      "valor": "Hasta 18x",
+      "detalle": "viajes, hogar, autos, tecnología y educación",
+      "dias": [],
+      "cuando": "Todos los días",
+      "claro": "Hasta 12 cuotas en mueblerías, pinturerías, ferreterías, talleres, cubiertas, electrónica, electrodomésticos, universidades, anualidad escolar y municipalidades adheridas. 18 cuotas en Atlas Viajes. Sin intereses solo si pagás el total del resumen cada mes.",
+      "todoElRubro": true,
+      "hasta": "2026-11-30",
+      "comercios": [
+        {
+          "nombre": "Atlas Viajes",
+          "valor": "18 cuotas",
+          "nota": "operado por Boarding Pass"
+        },
+        {
+          "nombre": "Assist Card",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Agencia de viajes",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Aerolinea",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Personal",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "ABC",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "H&M",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Del Sol",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Municipalidad",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Colegio",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Universidad",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Ferreteria",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Taller",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Cubiertas",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Repuestos",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Muebleria",
+          "valor": "12 cuotas"
+        },
+        {
+          "nombre": "Pintureria",
+          "valor": "12 cuotas"
+        }
+      ]
     }
   ]
 }
