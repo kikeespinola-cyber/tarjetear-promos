@@ -1,6 +1,6 @@
 {
  "formato": 1,
- "actualizado": "16/11/2026",
+ "actualizado": "19/11/2026",
  "promos": [
   {
    "banco": "Banco GNB",
@@ -12131,6 +12131,1174 @@
      "valor": "Hasta 12x"
     }
    ]
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "SG",
+   "palabras": [
+    "shell"
+   ],
+   "rubros": [
+    "combustible"
+   ],
+   "id": "fic-shell-martes",
+   "comercio": "Shell Grupo MAO",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "combustible en estaciones adheridas",
+   "dias": [
+    2
+   ],
+   "cuando": "Martes",
+   "claro": "20% con Bancard Check, Clásica y Oro; 25% con Platinum. Solo en combustible de las estaciones Shell del Grupo MAO. Vuelve en el extracto.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes (₲ 800.000 con Platinum)",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "TD",
+   "palabras": [
+    "shell select",
+    "shopp"
+   ],
+   "rubros": [],
+   "id": "fic-shell-conveniencia",
+   "comercio": "Tiendas de conveniencia Shell Grupo MAO",
+   "tipo": "reintegro",
+   "valor": "25%",
+   "detalle": "tiendas de las estaciones adheridas",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "25% con Bancard Check, Clásica y Oro; 30% con Platinum, en las tiendas de las estaciones Shell del Grupo MAO y Shopp de Ñu Guazú.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "30%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 800.000 por mes (₲ 666.667 con Platinum)",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "RC",
+   "palabras": [],
+   "rubros": [
+    "restaurante"
+   ],
+   "id": "fic-restaurantes",
+   "comercio": "Restaurantes, confiterías y heladerías",
+   "tipo": "reintegro",
+   "valor": "40%",
+   "detalle": "solo Visa Platinum · todos los locales del rubro",
+   "dias": [
+    5,
+    6,
+    0
+   ],
+   "cuando": "Viernes a domingo",
+   "claro": "Solo con Visa Platinum (no corporativas): 40% de reintegro en todos los restaurantes, confiterías y heladerías. No vale en compras online.",
+   "todoElRubro": true,
+   "soloTarjetas": [
+    "Platinum"
+   ],
+   "excluirTarjetas": [
+    "Empresarial"
+   ],
+   "tope": "Compra de hasta ₲ 750.000 por mes",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "CI",
+   "palabras": [
+    "cinemark"
+   ],
+   "rubros": [],
+   "id": "fic-cinemark",
+   "comercio": "Cinemark",
+   "tipo": "reintegro",
+   "valor": "50%",
+   "detalle": "",
+   "dias": [
+    5,
+    6
+   ],
+   "cuando": "Viernes y sábados",
+   "claro": "50% con Bancard Check, Clásica y Oro; 60% con Visa Platinum. Vale también en la app y la web de Cinemark.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "60%"
+    }
+   ],
+   "excluirTarjetas": [
+    "Empresarial"
+   ],
+   "tope": "Compra de hasta ₲ 400.000 por mes (₲ 500.000 con Platinum)",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "PE",
+   "palabras": [
+    "pedidosya",
+    "pedidos ya"
+   ],
+   "rubros": [
+    "restaurante"
+   ],
+   "id": "fic-pedidosya",
+   "comercio": "PedidosYa",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "solo en la app",
+   "dias": [
+    5,
+    6,
+    0
+   ],
+   "cuando": "Viernes a domingo",
+   "claro": "20% de reintegro con Visa Clásica, Oro y Platinum, solo pidiendo desde la app de PedidosYa. Compra mínima de ₲ 20.000.",
+   "excluirTarjetas": [
+    "Empresarial",
+    "Check"
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-27"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "AD",
+   "palabras": [
+    "agencia de viajes",
+    "viajes",
+    "turismo",
+    "aerolinea",
+    "airlines"
+   ],
+   "rubros": [],
+   "id": "fic-viajes",
+   "comercio": "Agencias de viajes y aerolíneas",
+   "tipo": "cuotas",
+   "valor": "Hasta 18x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 18 cuotas sin intereses con Check, Clásica y Oro; hasta 24 con Platinum. No vale en compras online a comercios del exterior.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "Hasta 24x"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 20.000.000",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "AV",
+   "palabras": [],
+   "rubros": [],
+   "id": "fic-seguros",
+   "comercio": "Aseguradoras (Vanguardia Seguros)",
+   "tipo": "cuotas",
+   "valor": "Hasta 12x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 12 cuotas sin intereses para pagar tu seguro en las aseguradoras de la lista.",
+   "tope": "Compra de hasta ₲ 20.000.000",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2027-12-31",
+   "comercios": [
+    {
+     "nombre": "Aseguradora del Este",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Yacyreta Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Seguridad Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "El Sol Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Seguros Patria",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Sancor Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Interfisa Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Atlas Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Alianza Garantía",
+     "valor": "Hasta 12x"
+    }
+   ]
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "FD",
+   "palabras": [],
+   "rubros": [
+    "farmacia"
+   ],
+   "id": "fic-farmacias",
+   "comercio": "Farmacias de todo el país",
+   "tipo": "cuotas",
+   "valor": "Hasta 6x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 6 cuotas sin intereses en todas las farmacias del país (no corporativas).",
+   "todoElRubro": true,
+   "excluirTarjetas": [
+    "Empresarial"
+   ],
+   "tope": "Compra de hasta ₲ 10.000.000",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31"
+  },
+  {
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "logo": "T1",
+   "palabras": [],
+   "rubros": [
+    "tecnologia"
+   ],
+   "id": "fic-tecno-cuotas",
+   "comercio": "Tecnología: 12 cuotas",
+   "tipo": "cuotas",
+   "valor": "Hasta 12x",
+   "detalle": "Nissei, Alemania Cell, Tienda Móvil y Visuar",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 12 cuotas sin intereses en Nissei (incluye su web), Alemania Cell, Tienda Móvil y Visuar. Pedí las cuotas antes de pagar.",
+   "tope": "Compra de hasta ₲ 10.000.000",
+   "pago": "Con tarjetas de crédito FIC, en POS de la red Infonet. No vale con prepagas. Bases en fic.com.py.",
+   "hasta": "2026-12-31",
+   "comercios": [
+    {
+     "nombre": "Nissei",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Alemania Cell",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Tienda Móvil",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Visuar",
+     "valor": "Hasta 12x"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "LD",
+   "palabras": [],
+   "rubros": [
+    "farmacia"
+   ],
+   "id": "fpj-farmacias",
+   "comercio": "Lunes de farmacias",
+   "tipo": "descuento",
+   "valor": "Hasta 35%",
+   "detalle": "+ hasta 6 cuotas",
+   "dias": [
+    1
+   ],
+   "cuando": "Lunes",
+   "claro": "Hasta 35% de ahorro (5% más con Mastercard Black) y hasta 6 cuotas sin intereses. En Santa Victoria de Villarrica, 30% de reintegro.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "Hasta 35% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 700.000 por mes en farmacias",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Vicente Scavone",
+     "valor": "Hasta 35%"
+    },
+    {
+     "nombre": "Farmacenter",
+     "valor": "Hasta 35%"
+    },
+    {
+     "nombre": "Farmatotal",
+     "valor": "Hasta 35%"
+    },
+    {
+     "nombre": "Farmacias Energy",
+     "valor": "Hasta 35%"
+    },
+    {
+     "nombre": "Santa Victoria",
+     "valor": "30%",
+     "nota": "Villarrica"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "MD",
+   "palabras": [],
+   "rubros": [
+    "ropa"
+   ],
+   "id": "fpj-tiendas",
+   "comercio": "Martes de tiendas",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "Mango, Springfield, O Boticário y más",
+   "dias": [
+    2
+   ],
+   "cuando": "Martes",
+   "claro": "20% de reintegro (25% con Mastercard Black) y hasta 12 cuotas sin intereses en las tiendas de la lista.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "20% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.500.000 por mes entre todas las tiendas",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Mango",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Pedro del Hierro",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Cortefiel",
+     "valor": "20%"
+    },
+    {
+     "nombre": "O Boticário",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Springfield",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Forever 21",
+     "valor": "20%"
+    },
+    {
+     "nombre": "ISDIN",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Champs Elysées",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Women'secret",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Casa Paraná",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Jack & Jones",
+     "valor": "20%"
+    },
+    {
+     "nombre": "FerreGarden",
+     "valor": "20%"
+    },
+    {
+     "nombre": "K-Store",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Fashion Point",
+     "valor": "20%"
+    },
+    {
+     "nombre": "El Ángel",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Jakare",
+     "valor": "20%",
+     "nota": "Encarnación"
+    },
+    {
+     "nombre": "Tayanara",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Megashop",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Sport Center",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Atenas Sports",
+     "valor": "20%",
+     "nota": "Villarrica"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "AA",
+   "palabras": [
+    "avenida autocentro"
+   ],
+   "rubros": [],
+   "id": "fpj-avenida",
+   "comercio": "Avenida Autocentro",
+   "tipo": "descuento",
+   "valor": "20% + 10%",
+   "detalle": "+ hasta 12 cuotas",
+   "dias": [
+    2
+   ],
+   "cuando": "Martes",
+   "claro": "20% de descuento en caja y 10% de reintegro, y hasta 12 cuotas (18 con Mastercard Black).",
+   "tope": "Compra de hasta ₲ 2.000.000 por mes",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30"
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "MD",
+   "palabras": [],
+   "rubros": [
+    "combustible"
+   ],
+   "id": "fpj-combustible",
+   "comercio": "Miércoles de combustible",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "Copetrol, Petrochaco, Petrosur y Compasa",
+   "dias": [
+    3
+   ],
+   "cuando": "Miércoles",
+   "claro": "20% de reintegro (25% con Mastercard Black). Copetrol y Petrochaco solo en estaciones adheridas.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "20% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes entre todas las estaciones",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Copetrol",
+     "valor": "20%",
+     "nota": "estaciones adheridas"
+    },
+    {
+     "nombre": "Petrochaco",
+     "valor": "20%",
+     "nota": "estaciones adheridas"
+    },
+    {
+     "nombre": "Petrosur",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Compasa",
+     "valor": "20%",
+     "nota": "Concepción"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "JD",
+   "palabras": [],
+   "rubros": [
+    "supermercado"
+   ],
+   "id": "fpj-super",
+   "comercio": "Jueves de supermercado",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "Delimarket, Superseis y Stock · último jueves 30%",
+   "dias": [
+    4
+   ],
+   "cuando": "Jueves",
+   "claro": "20% de reintegro (25% con Mastercard Black) en Delimarket, Superseis y Stock. El último jueves del mes sube a 30%. Además, cuotas sin intereses en los súper de la lista.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "20% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes entre todos los súper",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Delimarket",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Superseis",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Stock",
+     "valor": "20%"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "ÚJ",
+   "palabras": [],
+   "rubros": [
+    "supermercado"
+   ],
+   "id": "fpj-super-ultimo-jueves",
+   "comercio": "Último jueves en Delimarket, Superseis y Stock",
+   "tipo": "reintegro",
+   "valor": "30%",
+   "detalle": "",
+   "dias": [
+    4
+   ],
+   "cuando": "Último jueves del mes",
+   "claro": "El último jueves de cada mes: 30% de reintegro (35% con Mastercard Black) en Delimarket, Superseis y Stock.",
+   "ultimaSemana": true,
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "30% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 500.000",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Delimarket",
+     "valor": "30%"
+    },
+    {
+     "nombre": "Superseis",
+     "valor": "30%"
+    },
+    {
+     "nombre": "Stock",
+     "valor": "30%"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "SC",
+   "palabras": [],
+   "rubros": [
+    "supermercado"
+   ],
+   "id": "fpj-super-cuotas",
+   "comercio": "Supermercados: cuotas sin intereses",
+   "tipo": "cuotas",
+   "valor": "Hasta 6x",
+   "detalle": "",
+   "dias": [
+    4
+   ],
+   "cuando": "Jueves",
+   "claro": "Los jueves, hasta 6 cuotas sin intereses en los súper de la lista (12 en Molino Caaguazú).",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Archi",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "La Familia",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Marangatú",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Santo Elena",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Pueblo",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Comercial Rubencito",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Kingo",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "El Ahorrazo",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Yasy",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Super Express",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Molino Caaguazú",
+     "valor": "Hasta 12x"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "VD",
+   "palabras": [],
+   "rubros": [
+    "restaurante"
+   ],
+   "id": "fpj-restaurantes",
+   "comercio": "Viernes de restaurantes",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "Delicias Japonesas, D'Alepo, Chaval, Wisner y más",
+   "dias": [
+    5
+   ],
+   "cuando": "Viernes",
+   "claro": "20% de reintegro (25% con Mastercard Black) en los restaurantes de la lista.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "20% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Delicias Japonesas",
+     "valor": "20%"
+    },
+    {
+     "nombre": "D'Alepo",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Oveja Negra",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Kaitensu",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Yakitori",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Chaval",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Hey Life",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Ketchup",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Wisner",
+     "valor": "20%",
+     "nota": "tope aparte de ₲ 500.000"
+    },
+    {
+     "nombre": "Georges Pâtissier",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Don Bigote",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Caseroite",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Pan y Circo",
+     "valor": "20%",
+     "nota": "Villarrica"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "SD",
+   "palabras": [],
+   "rubros": [],
+   "id": "fpj-belleza",
+   "comercio": "Sábados de belleza y bienestar",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "spa, peluquería y pilates",
+   "dias": [
+    6
+   ],
+   "cuando": "Sábados",
+   "claro": "20% de reintegro (25% con Mastercard Black) en los locales de la lista. En Más Visión y Apple Wellness, hasta 12 cuotas.",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "20% + 5%"
+    }
+   ],
+   "tope": "Compra de hasta ₲ 1.000.000 por mes",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "ARK",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Solly Coiffure",
+     "valor": "20%"
+    },
+    {
+     "nombre": "El Vikingo",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Carmelitas",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Nutrifit",
+     "valor": "20%"
+    },
+    {
+     "nombre": "El Estudio Pilates",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Estudio Bindu",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Más Visión",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Apple Wellness",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Leticia Carballo",
+     "valor": "20%"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "PY",
+   "palabras": [
+    "pedidosya",
+    "pedidos ya",
+    "plub"
+   ],
+   "rubros": [
+    "restaurante"
+   ],
+   "id": "fpj-antojo",
+   "comercio": "PedidosYa y Plub",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "detalle": "",
+   "dias": [
+    0
+   ],
+   "cuando": "Domingos",
+   "claro": "Todos los domingos, 20% de reintegro con tarjetas de crédito FPJ en PedidosYa y Plub.",
+   "tope": "Compra de hasta ₲ 300.000",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30"
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "CS",
+   "palabras": [],
+   "rubros": [],
+   "id": "fpj-cuotas-12",
+   "comercio": "Cuotas sin intereses: hasta 12",
+   "tipo": "cuotas",
+   "valor": "Hasta 12x",
+   "detalle": "Air Europa, Nissei, Yasui, Compulandia y más",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 12 cuotas sin intereses (18 con Mastercard Black en los comercios marcados).",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black"
+     ],
+     "valor": "Hasta 18x"
+    }
+   ],
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Air Europa",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Margraf",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Mylife",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Pipol",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Nissei",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Music Hall",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Yasui",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Compulandia",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Joyería G&A",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "La Sacristía",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Pandolfo",
+     "valor": "Hasta 12x"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "HS",
+   "palabras": [],
+   "rubros": [],
+   "id": "fpj-cuotas-12-varios",
+   "comercio": "Hogar, servicios y más: 12 cuotas",
+   "tipo": "cuotas",
+   "valor": "Hasta 12x",
+   "detalle": "Tigo, Bristol, Visuar, Electroban y más",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 12 cuotas sin intereses en los comercios de la lista.",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Prosegur",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Tigo",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "La Rural Seguros",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Ucom",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Tienda Yankee",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Óptica Valemar",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Essen",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Toñina",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Bristol",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Visuar",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Hogartec",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "La Hora de las Compras",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Hogar Feliz",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Amo mi Casa",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Odonto Estetic",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Aquotas",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Vita Cosméticos",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "FerreShop",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Dejando Huellas",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Paraguay Comunicaciones",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Electroban",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Innova Game",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Yhaguy Autocentro",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "MedCheck",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Verónica Chun",
+     "valor": "Hasta 12x"
+    },
+    {
+     "nombre": "Ñe'ẽ Porã",
+     "valor": "Hasta 12x",
+     "nota": "San Ignacio"
+    },
+    {
+     "nombre": "Encar Tuning",
+     "valor": "Hasta 12x",
+     "nota": "Encarnación"
+    },
+    {
+     "nombre": "Gomería Los Amigos",
+     "valor": "Hasta 12x",
+     "nota": "Encarnación"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "KE",
+   "palabras": [],
+   "rubros": [],
+   "id": "fpj-cuotas-18",
+   "comercio": "Kaizen Energy, Cellcomp y San Bernardino Country Club",
+   "tipo": "cuotas",
+   "valor": "Hasta 18x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 18 cuotas sin intereses.",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Kaizen Energy",
+     "valor": "Hasta 18x"
+    },
+    {
+     "nombre": "Cellcomp",
+     "valor": "Hasta 18x"
+    },
+    {
+     "nombre": "San Bernardino Country Club",
+     "valor": "Hasta 18x"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "SF",
+   "palabras": [],
+   "rubros": [],
+   "id": "fpj-cuotas-6",
+   "comercio": "Sol Fuerte y Auto PB Line",
+   "tipo": "cuotas",
+   "valor": "Hasta 6x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 6 cuotas sin intereses. En Auto PB Line, además 10% de descuento en caja.",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30",
+   "comercios": [
+    {
+     "nombre": "Sol Fuerte",
+     "valor": "Hasta 6x"
+    },
+    {
+     "nombre": "Auto PB Line",
+     "valor": "Hasta 6x"
+    }
+   ]
+  },
+  {
+   "banco": "Paraguayo Japonesa",
+   "claveBanco": "paraguayo japonesa",
+   "logo": "NV",
+   "palabras": [
+    "nos vamoos",
+    "vamoos"
+   ],
+   "rubros": [],
+   "id": "fpj-nos-vamoos",
+   "comercio": "Nos Vamoos Agencia de Viajes",
+   "tipo": "cuotas",
+   "valor": "Hasta 24x",
+   "detalle": "",
+   "dias": [],
+   "cuando": "Todos los días",
+   "claro": "Hasta 24 cuotas sin intereses.",
+   "pago": "Con tarjetas de crédito FPJ, en POS Infonet de Bancard. Bases y condiciones en fpj.com.py.",
+   "hasta": "2026-11-30"
   }
  ]
 }
