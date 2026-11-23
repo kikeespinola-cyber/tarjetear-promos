@@ -1,6 +1,14 @@
 {
  "formato": 1,
- "actualizado": "19/11/2026",
+ "actualizado": "23/11/2026",
+ "evento": {
+  "id": "black-friday-2026",
+  "nombre": "Black Friday",
+  "desde": "2026-11-27",
+  "hasta": "2026-11-29",
+  "anuncio": "2026-11-23",
+  "lema": "Pagá con la tarjeta que más te devuelve."
+ },
  "promos": [
   {
    "banco": "Banco GNB",
@@ -5275,6 +5283,37 @@
    "hasta": "2026-12-31"
   },
   {
+   "banco": "Itaú",
+   "claveBanco": "itau",
+   "logo": "TN",
+   "palabras": [
+    "tienda naranja"
+   ],
+   "rubros": [],
+   "id": "itau-bf-tienda-naranja",
+   "comercio": "Tienda Naranja",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Infinite",
+      "AMEX Platinum"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "detalle": "Black Friday · reintegro + hasta 18 cuotas",
+   "dias": [],
+   "desde": "2026-11-27",
+   "hasta": "2026-11-27",
+   "cuando": "Viernes 27 de noviembre",
+   "claro": "Solo el viernes 27, comprando en Tienda Naranja: te devuelven 20% en el extracto (25% con Visa Infinite o AMEX Platinum) y podés pagar en hasta 18 cuotas sin intereses. Las ofertas de la tienda siguen hasta el domingo 29, pero el reintegro y las cuotas son solo el viernes.",
+   "tope": "₲ 500.000 por tarjeta · ₲ 700.000 con Infinite y AMEX Platinum",
+   "pago": "Comprando en Tienda Naranja con tarjeta de crédito Itaú.",
+   "evento": "black-friday-2026"
+  },
+  {
    "banco": "Banco Basa",
    "claveBanco": "basa",
    "logo": "JD",
@@ -8178,7 +8217,8 @@
    "desde": "2026-11-27",
    "hasta": "2026-11-29",
    "cuando": "27 al 29 de noviembre",
-   "claro": "Hasta 10 cuotas sin intereses en Mariscal, Paseo La Galería, Pinedo, Villa Morra, Multiplaza y más. Con delSol Atlas, además 10% de reintegro en los locales adheridos del Shopping del Sol."
+   "claro": "Hasta 10 cuotas sin intereses en Mariscal, Paseo La Galería, Pinedo, Villa Morra, Multiplaza y más. Con delSol Atlas, además 10% de reintegro en los locales adheridos del Shopping del Sol.",
+   "evento": "black-friday-2026"
   },
   {
    "banco": "Banco Atlas",
