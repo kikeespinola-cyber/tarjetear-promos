@@ -1,6 +1,6 @@
 {
  "formato": 1,
- "actualizado": "23/11/2026",
+ "actualizado": "25/11/2026",
  "evento": {
   "id": "black-friday-2026",
   "nombre": "Black Friday",
@@ -2744,6 +2744,120 @@
    "hasta": "2026-12-31"
   },
   {
+   "palabras": [
+    "rotonde"
+   ],
+   "rubros": [
+    "restaurante"
+   ],
+   "dias": [
+    1,
+    2,
+    3
+   ],
+   "banco": "Sudameris",
+   "claveBanco": "sudameris",
+   "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+   "id": "sud-la-rotonde",
+   "comercio": "Le Bistro de La Rotonde",
+   "logo": "LR",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black",
+      "Infinite"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "detalle": "en Distrito Perseverancia",
+   "cuando": "Lunes a miércoles",
+   "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite).",
+   "tope": "₲ 1.500.000 por mes",
+   "hasta": "2026-12-30"
+  },
+  {
+   "palabras": [
+    "impacto"
+   ],
+   "rubros": [],
+   "dias": [],
+   "banco": "Sudameris",
+   "claveBanco": "sudameris",
+   "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+   "id": "sud-impacto-home",
+   "comercio": "Impacto Home",
+   "logo": "IH",
+   "tipo": "descuento",
+   "valor": "20%",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black",
+      "Infinite"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "detalle": "en caja + hasta 15 cuotas",
+   "cuando": "Del 16 al 30 de noviembre",
+   "claro": "Te descuentan 20% al pagar (25% con Black o Infinite) y hasta 15 cuotas sin intereses. No se suma con otras promos.",
+   "desde": "2026-11-16",
+   "hasta": "2026-11-30"
+  },
+  {
+   "palabras": [
+    "kube"
+   ],
+   "rubros": [],
+   "dias": [],
+   "banco": "Sudameris",
+   "claveBanco": "sudameris",
+   "pago": "Pagá en el POS de Bancard. Con Dinelco o Cabal no aplica. Solo tarjeta de crédito.",
+   "id": "sud-kube",
+   "comercio": "Kube",
+   "logo": "KU",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Black",
+      "Infinite"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "detalle": "reintegro + hasta 15 cuotas",
+   "cuando": "Del 19 al 25 de noviembre",
+   "claro": "Te devuelven 20% en el extracto (25% con Black o Infinite) y hasta 15 cuotas sin intereses. No se suma con otras promos.",
+   "tope": "₲ 5.000.000",
+   "desde": "2026-11-19",
+   "hasta": "2026-11-25"
+  },
+  {
+   "palabras": [
+    "ticketea",
+    "vilaseca"
+   ],
+   "rubros": [],
+   "dias": [],
+   "banco": "Sudameris",
+   "claveBanco": "sudameris",
+   "pago": "Solo comprando en la página de Ticketea con tarjeta de crédito Sudameris.",
+   "id": "sud-vilaseca",
+   "comercio": "Borja Vilaseca en Ticketea",
+   "logo": "BV",
+   "tipo": "descuento",
+   "valor": "20%",
+   "detalle": "conferencia del 26/11, hasta agotar cupos",
+   "cuando": "Hasta el 26 de noviembre",
+   "claro": "20% de descuento comprando la entrada en la página de Ticketea, con cupos limitados por sector.",
+   "hasta": "2026-11-26"
+  },
+  {
    "banco": "Banco Continental",
    "claveBanco": "continental",
    "pago": "Solo pagando en el POS de Dinelco. Si pasás la tarjeta en otro posnet, no aplica.",
@@ -2922,6 +3036,10 @@
     {
      "nombre": "Real Online",
      "valor": "30%"
+    },
+    {
+     "nombre": "Kingo",
+     "valor": "25%"
     },
     {
      "nombre": "Ahorra Mas",
@@ -3280,7 +3398,8 @@
      "nombre": "Super Mas",
      "valor": "10%"
     }
-   ]
+   ],
+   "tope": "₲ 1.000.000 por semana, entre todos los súper"
   },
   {
    "banco": "Banco Continental",
@@ -7094,6 +7213,108 @@
    ]
   },
   {
+   "palabras": [
+    "shopping"
+   ],
+   "rubros": [],
+   "dias": [],
+   "banco": "Zeta Banco",
+   "claveBanco": "zeta",
+   "id": "zeta-black-shopping",
+   "comercio": "Black Shopping Weekend",
+   "logo": "BS",
+   "tipo": "cuotas",
+   "valor": "12x",
+   "detalle": "en los shoppings adheridos, 27 al 29 de noviembre",
+   "desde": "2026-11-27",
+   "hasta": "2026-11-29",
+   "cuando": "27 al 29 de noviembre",
+   "claro": "Hasta 12 cuotas sin intereses con tu tarjeta de crédito Zeta en los comercios adheridos al Black Shopping Weekend.",
+   "evento": "black-friday-2026",
+   "comercios": [
+    {
+     "nombre": "Mariscal",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Del Sol",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Mariano",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Paseo La Galeria",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "San Lorenzo Shopping",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Pinedo",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Mall Excelsior",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Villa Morra",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Multiplaza",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Fuente Shopping",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "1811",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Century Plaza",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Via Allegra",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Paseo Alameda",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Plaza Madero",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Costanera",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Plaza Norte",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Shopping Dubai",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Distrito Perseverancia",
+     "valor": "12 cuotas"
+    },
+    {
+     "nombre": "Estacion Los Jardines",
+     "valor": "12 cuotas"
+    }
+   ]
+  },
+  {
    "banco": "Banco Atlas",
    "claveBanco": "atlas",
    "logo": "VD",
@@ -10645,13 +10866,13 @@
    "id": "fam-parana-hogar",
    "comercio": "Paraná Hogar",
    "tipo": "reintegro",
-   "valor": "30%",
-   "detalle": "+ hasta 24 cuotas",
+   "valor": "30% + 10%",
+   "detalle": "30% de reintegro + 10% de descuento + hasta 24 cuotas",
    "dias": [
     3
    ],
    "cuando": "Miércoles",
-   "claro": "30% de reintegro en el extracto y hasta 24 cuotas con Platinum y Oro (12 con Clásica).",
+   "claro": "10% de descuento al pagar y hasta 30% de reintegro en el extracto. Hasta 24 cuotas con Oro y Platinum, 12 con Clásica.",
    "pago": "Con tarjetas de crédito Banco Familiar. Bases y condiciones en familiar.com.py.",
    "hasta": "2026-11-30"
   },
@@ -10904,6 +11125,83 @@
    "cuando": "Todos los días",
    "claro": "10% de descuento en caja y hasta 10 cuotas sin intereses, con todas las tarjetas.",
    "pago": "Con tarjetas de crédito Banco Familiar. Bases y condiciones en familiar.com.py.",
+   "hasta": "2026-11-30"
+  },
+  {
+   "palabras": [],
+   "rubros": [
+    "restaurante"
+   ],
+   "dias": [],
+   "banco": "Banco Familiar",
+   "claveBanco": "familiar",
+   "pago": "Con tarjetas de crédito Banco Familiar. Bases y condiciones en familiar.com.py.",
+   "id": "fam-mariscal-musica",
+   "comercio": "Mariscal Música",
+   "logo": "MM",
+   "tipo": "reintegro",
+   "valor": "Hasta 25%",
+   "detalle": "DJ set en Plaza Mariscal · solo hoy",
+   "desde": "2026-11-25",
+   "hasta": "2026-11-25",
+   "cuando": "Miércoles 25 de noviembre, desde las 18:30",
+   "claro": "Hasta 25% de reintegro con tus tarjetas de crédito Familiar en los locales gastronómicos de Barrio Mariscal adheridos.",
+   "comercios": [
+    {
+     "nombre": "Paris",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Club Estirado",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Sicilia",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Porchetta",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Arepas",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Bernardino",
+     "valor": "Hasta 25%"
+    },
+    {
+     "nombre": "Koggi",
+     "valor": "Hasta 25%"
+    }
+   ]
+  },
+  {
+   "palabras": [
+    "bellissima"
+   ],
+   "rubros": [],
+   "dias": [],
+   "banco": "Banco Familiar",
+   "claveBanco": "familiar",
+   "pago": "Con tarjetas de crédito Banco Familiar. Bases y condiciones en familiar.com.py.",
+   "id": "fam-bellissima",
+   "comercio": "Bellissima",
+   "logo": "BE",
+   "tipo": "cuotas",
+   "valor": "Hasta 12x",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "Hasta 24x"
+    }
+   ],
+   "detalle": "hasta 24 cuotas sin intereses",
+   "cuando": "Todos los días",
+   "claro": "Hasta 24 cuotas sin intereses con Platinum y hasta 12 con Oro y Clásica.",
    "hasta": "2026-11-30"
   },
   {
@@ -11778,28 +12076,41 @@
    "banco": "Interfisa Banco",
    "claveBanco": "interfisa",
    "logo": "PE",
-   "palabras": [],
+   "palabras": [
+    "puma"
+   ],
    "rubros": [
     "combustible"
    ],
    "id": "itf-combustible",
    "comercio": "Puma Energy",
    "tipo": "reintegro",
-   "valor": "Hasta 15%",
+   "valor": "10%",
    "detalle": "",
    "dias": [
     3
    ],
    "cuando": "Miércoles",
-   "claro": "Hasta 15% de reintegro en estaciones Puma, los miércoles.",
+   "claro": "10% de reintegro con Clásica y Oro, 15% con Infinite, Black y Platinum, en estaciones Puma los miércoles.",
    "pago": "Con tarjetas de crédito Interfisa, en POS de la red Infonet. Condiciones de cada local en interfisa.com.py/beneficios.",
-   "hasta": "2026-11-30",
+   "hasta": "2026-12-31",
    "comercios": [
     {
      "nombre": "Puma",
-     "valor": "Hasta 15%"
+     "valor": "10%"
     }
-   ]
+   ],
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Infinite",
+      "Black",
+      "Platinum"
+     ],
+     "valor": "15%"
+    }
+   ],
+   "tope": "₲ 1.000.000 por mes"
   },
   {
    "banco": "Interfisa Banco",
@@ -12476,6 +12787,57 @@
     {
      "nombre": "Visuar",
      "valor": "Hasta 12x"
+    }
+   ]
+  },
+  {
+   "palabras": [],
+   "rubros": [
+    "tecnologia"
+   ],
+   "dias": [],
+   "banco": "FIC",
+   "claveBanco": "fic",
+   "pago": "Con tarjetas de crédito FIC. Bases y condiciones en fic.com.py.",
+   "id": "fic-black-friday",
+   "comercio": "Black Friday FIC",
+   "logo": "BF",
+   "tipo": "reintegro",
+   "valor": "20%",
+   "porTarjeta": [
+    {
+     "tarjetas": [
+      "Platinum"
+     ],
+     "valor": "25%"
+    }
+   ],
+   "detalle": "Nissei, Shopping China, Visuar, Bristol y Alemania Cell + 12 cuotas",
+   "cuando": "Del 19 al 30 de noviembre",
+   "claro": "20% de reintegro con Bancard Check, Clásica, Oro y Oro Empresarial; 25% con Platinum y Platinum Empresarial. Más hasta 12 cuotas sin intereses.",
+   "desde": "2026-11-19",
+   "hasta": "2026-11-30",
+   "evento": "black-friday-2026",
+   "comercios": [
+    {
+     "nombre": "Nissei",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Shopping China",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Visuar",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Bristol",
+     "valor": "20%"
+    },
+    {
+     "nombre": "Alemania Cell",
+     "valor": "20%"
     }
    ]
   },
